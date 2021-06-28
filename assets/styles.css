@@ -1,9 +1,12 @@
 header {
-    background-color: #666;
     padding: 3px;
     text-align: center;
     font-size: 15px;
     color: white;
+}
+
+marquee {
+    background-color: orange;
 }
 
 nav {
@@ -18,12 +21,13 @@ nav {
 
 /* Style the section */
 
-section {
+.section {
     background-color: #666;
     padding: 30px;
     text-align: center;
     font-size: 35px;
     color: white;
+    height: 1000px;
 }
 
 .hero {
@@ -36,8 +40,8 @@ section {
     height: 900px;
 }
 
-#title {
-    font-size: 45px;
-    height: 1000px;
-    background-color: orange;
+.title {
+    top: -500px;
+    font-size: 100px;
+    color: antiquewhite;
 }
