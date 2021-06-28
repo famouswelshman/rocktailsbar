@@ -1,7 +1,31 @@
 header {
     background-color: #666;
+    padding: 3px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+
+nav {
+    font-size: 20px;
+    background-color: orange;
+}
+
+
+/* Style the section */
+
+section {
+    background-color: #666;
     padding: 30px;
     text-align: center;
     font-size: 35px;
     color: white;
+}
+
+#ex {
+    text-align: center;
+    background-image: url("assets/photos/index hero pic.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
