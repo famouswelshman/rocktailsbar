@@ -24,8 +24,15 @@ section {
 
 #ex {
     text-align: center;
-    background-image: url("https://github.com/famouswelshman/rocktailsbar/blob/main/assets/photos/index%20hero%20pic.jpg");
+    background-image: url("./photos/hero.jpg");
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-size: cover;
+}
+
+#title {
+    font-size: 45px;
+    height: 1000px;
+    background-color: orange;
 }
