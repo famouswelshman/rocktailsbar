@@ -10,7 +10,7 @@ Milestone 2 Project - Rocktails Bar in Ibiza
 
 # USER STORIES
 
-![User story 1](https://famouswelshman.github.io/thenewbypassers/Wireframes/User-1.png "User story 1")
+![User story 1](https://github.com/famouswelshman/rocktailsbar/wireframes/index page.png "User story 1")
 
 
 
