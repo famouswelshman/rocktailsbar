@@ -9,7 +9,11 @@ header {
 nav {
     font-size: 20px;
     background-color: orange;
+    width: 100%;
+    position: fixed;
 }
+
+.nav-item {}
 
 
 /* Style the section */
@@ -22,13 +26,14 @@ section {
     color: white;
 }
 
-#ex {
+.hero {
     text-align: center;
     background-image: url("./photos/hero.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 900px;
 }
 
 #title {
