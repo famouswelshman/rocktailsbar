@@ -13,13 +13,6 @@ Milestone 2 Project - Rocktails Bar in Ibiza
 ![User story 1](https://famouswelshman.github.io/thenewbypassers/Wireframes/User-1.png "User story 1")
 
 
-![User story 2](https://famouswelshman.github.io/thenewbypassers/Wireframes/User-3.png "User story 2")
-
-
-![User story 3](https://famouswelshman.github.io/thenewbypassers/Wireframes/User-2.png "User story 3")
-
-
-![User story 4](https://famouswelshman.github.io/thenewbypassers/Wireframes/User-4.png "User story 4")
 
 # WEBSITE UX
 
