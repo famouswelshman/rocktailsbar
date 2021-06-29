@@ -36,11 +36,21 @@ The footer for the website is consistent across all pages and gives the user acc
 The future aim of the site is to encourage returning visitors of the page to purchase the band related merchandise such as T-shirts and Logo Stickers. Additional media material will be available for user to view such as videos and downloadable music tracks exclusive to the website.
 
 # TYPOGRAPHY AND COLOUR SCHEME
-I chose a very basic color scheme which is losely based on the kind of colours within the bands logo which is the color - #cc0033. I was able to specify this color by using photoshop to identify the pink color within the logo. The main theme throughout is very black and white with some greys. This conveys a sort of photographic feel to the site which is synonymous with the content being in relation to a rock band and performing and capturing that live feeling!
 
-I used several fonts from google fonts, the most stand out of these being the 'Monoton' font type which has been used for h1 & h2 text/titles. It's bold and elegant, again using the same shade of pink as per the band logo. 
+# Google Font 1 (Black Ops One)
+Black Ops One for the big titles. The pattern of the cracked letters was attributed to the genre of music being rock hosted at the venue and a little nod to the mish mash of paving out in the garden area.
 
-I believe this font type compliments the headings of sections where there is content, its a nice swirly font type which in turn compliments the other fonts included which are Montserrat and Satisfy which are used for more of the paragraph based text. I set the default font-family to sans serif in the event that the font types do not load.
+# Google Font 2 ()
+
+
+
+
+# Google Font 3 ()
+
+
+
+
+
 
 # WIREFRAMES (Balsamic)
 The aim was to style each page consistently and keep the layout simple and clean. The designs created were very similar to the end product and being able to create these wireframes with balsamic allowed me to quickly move text and images around in order to find a balanced layout for each page. In order to create some continuity with design, I needed to create a template which incorporated desktop, tablet and mobile phone as per the images below.

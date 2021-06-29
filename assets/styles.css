@@ -1,3 +1,6 @@
+/*------------------Google Font Links----------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
 header {
     padding: 3px;
     text-align: center;
@@ -10,7 +13,7 @@ marquee {
 }
 
 nav {
-    font-size: 20px;
+    font-size: 25px;
     background-color: orange;
     width: 100%;
     position: fixed;
@@ -32,7 +35,7 @@ nav {
 
 .hero {
     text-align: center;
-    background-image: url("./photos/hero.jpg");
+    background-image: url("./photos/hero2blur.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -41,7 +44,15 @@ nav {
 }
 
 .title {
-    top: -500px;
-    font-size: 100px;
-    color: antiquewhite;
+    top: -300px;
+    float: left;
+    font-size: 200px;
+    color: white;
+    font-family: Black Ops One;
+}
+
+h1 {
+    top: -200px;
+    float: left;
+    color: orange;
 }
