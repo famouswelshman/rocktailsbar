@@ -53,7 +53,12 @@ Black Ops One for the big titles. The pattern of the cracked letters was attribu
 
 
 # WIREFRAMES (Balsamic)
-The aim was to style each page consistently and keep the layout simple and clean. The designs created were very similar to the end product and being able to create these wireframes with balsamic allowed me to quickly move text and images around in order to find a balanced layout for each page. In order to create some continuity with design, I needed to create a template which incorporated desktop, tablet and mobile phone as per the images below.
+I created a mock-up of the website using three visual layouts to cover the responsive nature of the website. 
+Balsamic was a real help in enabling me to visualize my web content across each display platform. I did start with the desktop layout rather than start with a handheld layout and this was down to my personal choice! It seems easier to me to create the whole layout and then consolidate this to smaller resolution peripherals so that I could see the whole website idea in front of me first.
+
+I researched websites online so that I could narrow down my use of colours for the design and since my focus was to create an ambient, chilled and artistic vibe I opeted for the subtle use of tungsten which is similar to the lighting at the venue. My vision for this website although fictitious was to give the user an idea and feel for a place just from viewing the website. Returning users would have some affiliation to this colour scheme since the venue would reflect the same colour scheme.
+
+
 
 ## 1. Index Page
 ![Index Page Design](https://famouswelshman.github.io/thenewbypassers/Wireframes/Index-Page.png "Index page Wireframe")
