@@ -5,11 +5,11 @@ header {
     padding: 3px;
     text-align: center;
     font-size: 15px;
-    color: white;
+    color: black;
 }
 
 marquee {
-    background-color: orange;
+    background-color: #ffb347;
 }
 
 nav {
@@ -35,7 +35,7 @@ nav {
 
 .hero {
     text-align: center;
-    background-image: url("./photos/hero2blur.jpg");
+    background-image: url("./photos/hero3.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -47,12 +47,24 @@ nav {
     top: -300px;
     float: left;
     font-size: 200px;
-    color: white;
     font-family: Black Ops One;
+    color: antiquewhite;
 }
 
 h1 {
     top: -200px;
     float: left;
-    color: orange;
+    color: #ffb347;
+}
+
+#map {
+    position: relative;
+    height: 700px;
+    width: 100%;
+}
+
+.customNavBar {
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }
