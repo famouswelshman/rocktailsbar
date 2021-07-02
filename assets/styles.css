@@ -35,7 +35,7 @@ nav {
 
 .hero {
     text-align: center;
-    background-image: url("./photos/hero3.jpg");
+    background-image: url("./photos/hero1.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -48,13 +48,13 @@ nav {
     float: left;
     font-size: 200px;
     font-family: Black Ops One;
-    color: antiquewhite;
+    color: white;
 }
 
 h1 {
     top: -200px;
     float: left;
-    color: #ffb347;
+    color: #cc6600;
 }
 
 #map {
@@ -69,6 +69,13 @@ h1 {
     left: 10px;
 }
 
-#links {
+.links {
+    height: 700px;
+    background-color: #cc6600;
+}
+
+.links img {
     height: 500px;
+    width: 500px;
+    padding: 50px;
 }
