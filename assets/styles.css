@@ -30,7 +30,7 @@ nav {
     text-align: center;
     font-size: 35px;
     color: white;
-    height: 1000px;
+    height: 900px;
 }
 
 .hero {
@@ -59,12 +59,16 @@ h1 {
 
 #map {
     position: relative;
-    height: 700px;
-    width: 100%;
+    height: 600px;
+    width: 700px;
 }
 
 .customNavBar {
     position: absolute;
     top: 10px;
     left: 10px;
+}
+
+#links {
+    height: 500px;
 }
