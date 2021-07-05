@@ -118,8 +118,12 @@ Photo by Aleisha Kalina on Unsplash
 
 # CODE CREDITS
 1. Bootstrap 5 (https://getbootstrap.com/)
+Navbar and dropdown toggle button for smaller devices was obtained via Bootstrap 5 website. Bootstrap have a variety of ready made navbar codes which are very user friendly and responsive. I opted for the light toggle navbar which shows links on the top right of page and when consolidated to a smaller resolution or handset will display a toggle button. Very useful and practical, this suited my needs. I also used some Bootstrap column making codes to use within div's on the web pages allowing for responsive result.
+
+
 2. W3Schools (www.w3schools.com)
 
+3. Dev.to (https://dev.to) - This website is where I obtained some simple JavaScript code to enable a Dark Mode functional button within the content of my website. The code was a simple snippet of Javascript which argumented the change in background color via CSS when interacting via a button.
 
 
 
