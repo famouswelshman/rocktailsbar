@@ -28,11 +28,10 @@ nav {
 
 .section {
     background-color: #666;
-    padding: 30px;
-    text-align: center;
     font-size: 35px;
     color: white;
     height: 900px;
+    border-style: dotted;
 }
 
 .hero {
@@ -61,11 +60,11 @@ h1 {
 }
 
 #map {
-    position: relative;
     height: 600px;
-    width: 700px;
+    width: 600px;
     border-style: solid;
     border-color: black;
+    padding-left: 100px;
 }
 
 .customNavBar {
