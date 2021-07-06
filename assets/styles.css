@@ -45,6 +45,7 @@ nav {
     background-repeat: no-repeat;
     background-size: cover;
     height: 900px;
+    width: 100%;
 }
 
 .title {
@@ -122,18 +123,39 @@ footer {
 
 /*------ LAPTOP SIZE ------------*/
 
-@media all and (max-width: 1024px) {}
-
-
+@media all and (max-width: 1024px) {
+    .title {
+        font-size: 200px;
+    }
 }
+
 
 /*------ TABLET SIZE ------------*/
-@media all and (max-width: 768px) {}
 
+@media all and (max-width: 768px) {
+    .title {
+        font-size: 80px;
+        text-align: center;
+        top: -500px;
+        border-style: dotted;
+    }
+    .hero {
+        text-align: center;
+        background-image: url("./photos/hero1.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        width: 100%;
+    }
 }
 
+
 /*------ MOBILE HANDSET SIZE ------------*/
+
 @media all and (max-width: 425px) {}
+
 
 }
 
