@@ -88,6 +88,7 @@ h1 {
 
 .links img:hover {
     opacity: 0.5;
+    font-size: 45px;
 }
 
 .text-link-1 {
@@ -97,6 +98,8 @@ h1 {
     left: 360px;
     font-size: 35px;
     transition: .2s ease;
+    background-color: black;
+    padding: 4px;
 }
 
 .text-link-2 {
@@ -106,6 +109,8 @@ h1 {
     left: 855px;
     font-size: 35px;
     transition: .2s ease;
+    background-color: black;
+    padding: 4px;
 }
 
 .text-link-3 {
@@ -115,6 +120,8 @@ h1 {
     left: 1370px;
     font-size: 35px;
     transition: .2s ease;
+    background-color: black;
+    padding: 4px;
 }
 
 .section-links {
