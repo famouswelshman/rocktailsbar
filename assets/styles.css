@@ -26,8 +26,6 @@ nav {
     position: fixed;
 }
 
-.nav-item {}
-
 .section {
     background-color: #666;
     padding: 30px;
@@ -86,6 +84,38 @@ h1 {
     height: 485px;
     width: 500px;
     padding-top: 50px;
+    transition: .3s ease;
+}
+
+.links img:hover {
+    opacity: 0.5;
+}
+
+.text-link-1 {
+    position: absolute;
+    top: 1065px;
+    color: white;
+    left: 360px;
+    font-size: 35px;
+    transition: .2s ease;
+}
+
+.text-link-2 {
+    position: absolute;
+    top: 1065px;
+    color: white;
+    left: 855px;
+    font-size: 35px;
+    transition: .2s ease;
+}
+
+.text-link-3 {
+    position: absolute;
+    top: 1065px;
+    color: white;
+    left: 1370px;
+    font-size: 35px;
+    transition: .2s ease;
 }
 
 .section-links {
