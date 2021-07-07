@@ -70,82 +70,103 @@ h1 {
     left: 10px;
 }
 
-.links {
-    height: 700px;
-    background-color: #cc6600;
-    text-align: center;
-}
-
-.links img {
-    height: 25%;
-    width: 25%;
-    transition: .3s ease;
-    border-style: dashed;
-}
-
-.links img:hover {
-    opacity: 0.2;
-}
-
-.text-link-1 {
-    font-family: festive;
-    position: absolute;
-    top: 955px;
-    color: white;
-    left: 290px;
-    font-size: 110px;
-    transition: .2s ease;
-    border-style: dashed;
-}
-
-.text-link-2 {
-    font-family: festive;
-    position: absolute;
-    top: 955px;
-    color: white;
-    left: 755px;
-    font-size: 105px;
-    transition: .2s ease;
-}
-
-.text-link-3 {
-    font-family: festive;
-    position: absolute;
-    top: 955px;
-    color: white;
-    left: 1215px;
-    font-size: 100px;
-    transition: .2s ease;
-}
-
-.section-links {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
 .container-tabs img {
     position: relative;
-    border-style: dashed;
     width: 600px;
     height: 100%;
+    background-color: #cc6600;
 }
 
 .col {
-    border-style: dashed;
     position: relative;
+    transition: 1s ease;
+    background-color: #cc6600;
 }
 
-h2 {
-    text-align: center;
+a:hover {
+    opacity: 0.9;
 }
 
-.centered {
+.cocktails-link {
     position: absolute;
     top: 10%;
     left: 50%;
     font-family: festive;
     color: white;
     transform: translate(-50%, -50%);
+    font-size: 110px;
+    transition: 1s ease;
+    text-align: center;
+    width: 70%;
+}
+
+.cocktails-link:hover {
+    font-size: 120px;
+}
+
+.music-link {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    font-family: festive;
+    color: white;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+    transition: 1s ease;
+    text-align: center;
+    width: 70%;
+}
+
+.music-link:hover {
     font-size: 100px;
+}
+
+.food-link {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    font-family: festive;
+    color: white;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+    transition: 1s ease;
+    text-align: center;
+    width: 85%;
+}
+
+.food-link:hover {
+    font-size: 100px;
+}
+
+
+/*--------------------------------- links ----------------------------*/
+
+
+/* unvisited link */
+
+a:link {
+    color: white;
+}
+
+
+/* visited link */
+
+a:visited {
+    color: green;
+}
+
+
+/* mouse over link */
+
+a:hover {
+    color: hotpink;
+}
+
+
+/* selected link */
+
+a:active {
+    color: blue;
 }
 
 
