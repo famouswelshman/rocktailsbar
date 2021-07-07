@@ -41,7 +41,7 @@ The future aim of the site is to encourage returning visitors of the page to pur
 Black Ops One for the big titles. The pattern of the cracked letters was attributed to the genre of music being rock hosted at the venue and a little nod to the mish mash of paving out in the garden area.
 
 # Google Font 2 ()
-
+Festive - Gives a theme to the font that connects people to the theme of the bar which is cocktails.
 
 
 
@@ -129,6 +129,11 @@ Navbar and dropdown toggle button for smaller devices was obtained via Bootstrap
 
 # FONT CREDITS
 1. Font Awesome - (www.fontawesome.com)
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+
+
 2. Google Fonts - (https://fonts.google.com/)
 
 
