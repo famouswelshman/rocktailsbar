@@ -46,6 +46,7 @@ Festive - Gives a theme to the font that connects people to the theme of the bar
 
 
 # Google Font 3 ()
+Amatic SC - I picked this as a nice subtle font for the use in displaying the location details (bottom left) of the webpage. This font is free flowing and quite subtle and pleasing which is perfect for illustrating the location of the venue and showing opening times etc.
 
 
 
