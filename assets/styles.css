@@ -75,7 +75,6 @@ h5 {
 #map {
     height: 800px;
     width: 50vw;
-    padding-left: 100px;
 }
 
 .customNavBar {
@@ -157,6 +156,8 @@ a:hover {
     height: 800px;
     background-color: #666;
     padding-top: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .location-title {
@@ -170,8 +171,6 @@ a:hover {
 .map-section {
     display: flex;
     height: 800px;
-    border-style: solid;
-    border-style: dotted;
 }
 
 .opening-times {
