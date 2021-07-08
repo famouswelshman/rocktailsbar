@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Pacifico&display=swap');
 header {
     padding: 3px;
     text-align: center;
@@ -10,7 +12,7 @@ header {
 }
 
 marquee {
-    background-color: #ffb347;
+    background-color: #cc6600;
 }
 
 
@@ -18,9 +20,19 @@ marquee {
 
 nav {
     font-size: 25px;
-    background-color: orange;
     width: 100%;
     position: fixed;
+}
+
+
+/*-------------------------- General styles --------------------------*/
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: Amatic SC;
 }
 
 
@@ -28,14 +40,17 @@ nav {
 
 .section {
     background-color: #666;
-    font-size: 35px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     color: white;
-    height: 900px;
+    height: 810px;
+    width: 100%;
+    text-align: center;
 }
 
 .hero {
     text-align: center;
-    background-image: url("./photos/hero1.jpg");
+    background-image: url("./photos/hero1.png");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -49,13 +64,13 @@ nav {
     float: left;
     font-size: 200px;
     font-family: Black Ops One;
-    color: white;
+    color: #cc6600;
 }
 
-h1 {
-    top: -200px;
-    float: left;
-    color: #cc6600;
+.subtitle {
+    font-family: festive;
+    font-size: 75px;
+    color: white;
 }
 
 #map {
@@ -138,77 +153,95 @@ a:hover {
     font-size: 100px;
 }
 
+.location-section {
+    text-align: center;
+    height: 800px;
+    background-color: #666;
+    padding: 20px;
+}
+
+.location-title {
+    font-family: Amatic SC;
+    font-size: 65px;
+    padding-top: 40px;
+}
+
+.location-text {}
+
+.map-section {
+    display: flex;
+    height: 800px;
+    border-style: solid;
+    border-style: dotted;
+}
+
+.opening-times {
+    border-style: solid;
+    border-color: #cc6600;
+    width: 100%;
+}
+
+
+}
+button {
+    width: 140px;
+    height: 45px;
+}
 
 /*--------------------------------- links ----------------------------*/
 
-
 /* unvisited link */
-
 a:link {
     color: white;
 }
 
-
 /* visited link */
-
 a:visited {
     color: green;
 }
 
-
 /* mouse over link */
-
 a:hover {
     color: hotpink;
 }
 
-
 /* selected link */
-
 a:active {
     color: blue;
 }
 
-
 /*-------------------------- FOOTER ----------------------------------------*/
 
-
 /* --------------- Social Links Icons supplied by (www.fontawesome.com)------*/
-
 footer {
-    padding-top: 50px;
+    padding-top: 0px;
     letter-spacing: 2px;
     text-align: center;
     bottom: 10px;
     position: relative;
     width: 100%;
+    height: 300px;
+    background-color: #cc6600;
 }
-
 .social-links {
     padding: 15px;
     text-align: center;
 }
-
 .social-links li {
     display: inline;
     text-align: justify;
 }
 
-
 /*-------------------------- MEDIA SIZES ---------------------------------------------*/
 
-
 /*------ LAPTOP SIZE ------------*/
-
 @media all and (max-width: 1024px) {
     .title {
         font-size: 200px;
     }
 }
 
-
 /*------ TABLET SIZE ------------*/
-
 @media all and (max-width: 768px) {
     .title {
         font-size: 70px;
@@ -216,6 +249,7 @@ footer {
         top: -500px;
         border-style: dotted;
     }
+    
     .hero {
         text-align: center;
         background-image: url("./photos/hero1.jpg");
@@ -227,6 +261,7 @@ footer {
         width: 100%;
         border-style: dashed;
     }
+    
     .section {
         background-color: #666;
         font-size: 35px;
@@ -234,10 +269,12 @@ footer {
         height: 900px;
         border-style: dashed;
     }
+    
     .links {
         height: 700px;
         background-color: #cc6600;
     }
+    
     .links img {
         height: 65%;
         width: 65%;
@@ -246,11 +283,8 @@ footer {
     }
 }
 
-
 /*------ MOBILE HANDSET SIZE ------------*/
-
 @media all and (max-width: 425px) {}
-
 
 }
 
