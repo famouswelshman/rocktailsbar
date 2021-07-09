@@ -173,13 +173,13 @@ a:hover {
     height: 800px;
 }
 
-.opening-times {
+#opening-times {
     border-style: solid;
     border-width: 1px;
     border-color: #cc6600;
     width: 1fr;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;
+    font-size: 15px;
 }
 
 button {
