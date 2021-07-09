@@ -20,14 +20,17 @@ Milestone 2 Project - Rocktails Bar in Ibiza
 
 
 # WEBSITE FEATURES 
-
+1. Responsive Navbar (Bootstrap)
+2. Google Maps API 
+3. Opening Times button written via Javascript 'onClick'.
+4. 
 
 
 
 # WEBSITE STANDARD/ EXISITING FEATURES
 
 #### - __Navigation Bar__
-The website features an interactive navbar to navigate the site with ease. This navbar which is a product of the Bootstrap code will be present on all pages and will adapt to each resolution by compressing the vav content to a dropdown icon when shown on smaller devices.
+The website features a basic interactive navbar to navigate the site with ease. This navbar which is a product of the Bootstrap code will be present on all pages and will adapt to each resolution by compressing the navbar options content to a dropdown icon when shown on smaller devices. I kept the navbar style as 'light' so it would not clutter the page.
 
 ### - __Footer and Social Media Links__
 The footer for the website is consistent across all pages and gives the user acces to click on a social media link external to the site and also clickable links within the wesbite.
@@ -36,6 +39,8 @@ The footer for the website is consistent across all pages and gives the user acc
 The future aim of the site is to encourage returning visitors of the page to purchase the band related merchandise such as T-shirts and Logo Stickers. Additional media material will be available for user to view such as videos and downloadable music tracks exclusive to the website.
 
 # TYPOGRAPHY AND COLOUR SCHEME
+Since the theme of this website is that of a trendy, live music and drinks venue, I opted for some styles that would reflect and enhance the kind of things offered at the bar venue. Cocktails and tapas traditionally have some association with italic style writing which I used primarily for the links to other pages offering drinks, live music and food pages.
+The use of the 'Black Ops One' font for the main title (Rocktails) was inspired by the idea of rock music and it's bold and brash to give the page some edge.
 
 # Google Font 1 (Black Ops One)
 Black Ops One for the big titles. The pattern of the cracked letters was attributed to the genre of music being rock hosted at the venue and a little nod to the mish mash of paving out in the garden area.
@@ -44,13 +49,8 @@ Black Ops One for the big titles. The pattern of the cracked letters was attribu
 Festive - Gives a theme to the font that connects people to the theme of the bar which is cocktails.
 
 
-
 # Google Font 3 ()
 Amatic SC - I picked this as a nice subtle font for the use in displaying the location details (bottom left) of the webpage. This font is free flowing and quite subtle and pleasing which is perfect for illustrating the location of the venue and showing opening times etc.
-
-
-
-
 
 
 # WIREFRAMES (Balsamic)
