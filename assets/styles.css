@@ -253,7 +253,7 @@ footer {
 
 @media all and (max-width: 1024px) {
     .title {
-        font-size: 200px;
+        font-size: 100px;
     }
 }
 
@@ -265,6 +265,7 @@ footer {
         font-size: 95px;
         text-align: center;
         top: -500px;
+        border-style: dashed;
     }
     .subtitle {
         font-family: festive;
