@@ -262,10 +262,14 @@ footer {
 
 @media all and (max-width: 768px) {
     .title {
-        font-size: 70px;
+        font-size: 95px;
         text-align: center;
         top: -500px;
-        border-style: dotted;
+    }
+    .subtitle {
+        font-family: festive;
+        font-size: 45px;
+        color: white;
     }
     .hero {
         text-align: center;
@@ -276,7 +280,6 @@ footer {
         background-size: cover;
         height: 400px;
         width: 100%;
-        border-style: dashed;
     }
     .section {
         background-color: #666;
