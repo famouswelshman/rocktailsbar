@@ -274,6 +274,58 @@ footer {
         display: flex;
         justify-content: center;
     }
+    .cocktails-link {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        font-family: festive;
+        color: white;
+        transform: translate(-50%, -50%);
+        font-size: 70px;
+        transition: 1s ease;
+        text-align: center;
+        width: 70%;
+        border-style: dashed;
+    }
+    .cocktails-link:hover {
+        font-size: 120px;
+    }
+    .music-link {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        font-family: festive;
+        color: white;
+        transform: translate(-50%, -50%);
+        font-size: 60px;
+        transition: 1s ease;
+        text-align: center;
+        width: 70%;
+    }
+    .music-link:hover {
+        font-size: 100px;
+    }
+    .food-link {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        font-family: festive;
+        color: white;
+        transform: translate(-50%, -50%);
+        font-size: 70px;
+        transition: 1s ease;
+        text-align: center;
+        width: 85%;
+    }
+    .food-link:hover {
+        font-size: 100px;
+    }
+    .container-tabs img {
+        position: relative;
+        width: 300px;
+        height: 100%;
+        background-color: #cc6600;
+    }
 }
 
 
@@ -292,7 +344,6 @@ footer {
         color: white;
     }
     .hero {
-        text-align: center;
         background-image: url("./photos/hero1.jpg");
         background-attachment: fixed;
         background-position: center;
