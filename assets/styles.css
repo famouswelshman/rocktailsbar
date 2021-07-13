@@ -256,11 +256,10 @@ footer {
         text-align: center;
         top: -500px;
         float: center;
-        border-style: dashed;
     }
     .subtitle {
         font-family: festive;
-        font-size: 45px;
+        font-size: 55px;
         color: white;
     }
     .hero {
@@ -285,7 +284,6 @@ footer {
         transition: 1s ease;
         text-align: center;
         width: 70%;
-        border-style: dashed;
     }
     .cocktails-link:hover {
         font-size: 120px;
