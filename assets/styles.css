@@ -34,6 +34,10 @@ h5 {
     font-family: Amatic SC;
 }
 
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 
 /*------------------ This div is the section that holds the link boxes for cocktails, live music and food---------------*/
 
@@ -87,12 +91,14 @@ h5 {
     width: 600px;
     height: 100%;
     background-color: #cc6600;
+    border-style: dotted;
 }
 
 .col {
     position: relative;
     transition: 1s ease;
     background-color: #cc6600;
+    border-style: dotted;
 }
 
 a:hover {
@@ -255,7 +261,7 @@ footer {
     .title {
         font-size: 150px;
         text-align: center;
-        top: -500px;
+        top: -700px;
         float: center;
     }
     .subtitle {
@@ -274,6 +280,13 @@ footer {
         display: flex;
         justify-content: center;
     }
+    .container-tabs img {
+        position: relative;
+        width: 300px;
+        height: 100%;
+        background-color: #cc6600;
+        border-style: dotted;
+    }
     .cocktails-link {
         position: absolute;
         top: 10%;
@@ -281,7 +294,7 @@ footer {
         font-family: festive;
         color: white;
         transform: translate(-50%, -50%);
-        font-size: 70px;
+        font-size: 50px;
         transition: 1s ease;
         text-align: center;
         width: 70%;
@@ -296,7 +309,7 @@ footer {
         font-family: festive;
         color: white;
         transform: translate(-50%, -50%);
-        font-size: 60px;
+        font-size: 50px;
         transition: 1s ease;
         text-align: center;
         width: 70%;
@@ -311,7 +324,7 @@ footer {
         font-family: festive;
         color: white;
         transform: translate(-50%, -50%);
-        font-size: 70px;
+        font-size: 50px;
         transition: 1s ease;
         text-align: center;
         width: 85%;
@@ -324,6 +337,14 @@ footer {
         width: 300px;
         height: 100%;
         background-color: #cc6600;
+    }
+    .map-section {
+        display: flex;
+        height: 100px;
+    }
+    #map {
+        height: 500px;
+        width: 50vw;
     }
 }
 
