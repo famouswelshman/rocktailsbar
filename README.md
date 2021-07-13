@@ -7,6 +7,11 @@ Milestone 2 Project - Rocktails Bar in Ibiza
 
 # PURPOSE OF THE PROJECT
 
+I was interested in creating a made up live music venue based in Ibiza. This was almost me paying homage to a wonderful and colourful place where I spent a lot of time during my youth not only on holidays but in a working capacity. So, I do have a strong affiliation with the live music and bar scene and wanted to create something that captured the fun and happy-go-lucky feel of a music and bar venue that would predominantly cater for the seasonal tourists on their holidays.
+
+The website had to be bold and vibrant with some mellow colours giving it a glow that is very familiar to the music scene and complimented the stylish theme of it being a cocktail bar which also served classy food and wasnt just your run of the mill touristy, UK audience driven venue for holiday punters and their families!!!
+
+I wanted to create a website that could would almost spoon feed its users what exactly the venue offers and where to see it.
 
 # USER STORIES
 
