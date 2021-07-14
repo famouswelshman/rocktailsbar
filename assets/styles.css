@@ -1,567 +1,407 @@
-        /*------------------Google Font Links----------------------------------*/
-        
-        @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Pacifico&display=swap');
-        header {
-            padding: 3px;
-            text-align: center;
-            font-size: 15px;
-            color: black;
-        }
-        
-        marquee {
-            background-color: #cc6600;
-        }
-        /*---------- Navbar code from Bootstrap 5 ------------------------*/
-        
-        nav {
-            font-size: 25px;
-            width: 100%;
-            position: fixed;
-        }
-        /*-------------------------- General styles --------------------------*/
-        
-        h1,
-        h2,
-        h3,
-        h4,
-        h5 {
-            font-family: Amatic SC;
-        }
-        
-        p {
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        /*------------------ This div is the section that holds the link boxes for cocktails, live music and food---------------*/
-        
-        .section {
-            background-color: #666;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            color: white;
-            height: 810px;
-            width: 100%;
-            text-align: center;
-        }
-        
-        .hero {
-            background-image: url("./photos/hero1.png");
-            background-attachment: fixed;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            height: 900px;
-            width: 100%;
-        }
-        
-        .title {
-            top: -300px;
-            float: left;
-            font-size: 200px;
-            font-family: Black Ops One;
-            color: #cc6600;
-        }
-        
-        .subtitle {
-            font-family: festive;
-            font-size: 75px;
-            color: white;
-        }
-        
-        .customNavBar {
-            position: absolute;
-            top: 10px;
-            left: 10px;
-        }
-        
-        .container-tabs img {
-            position: relative;
-            width: 600px;
-            height: 100%;
-            background-color: #cc6600;
-        }
-        
-        .col {
-            position: relative;
-            transition: 1s ease;
-            background-color: #cc6600;
-        }
-        
-        a:hover {
-            opacity: 0.9;
-        }
-        
-        .cocktails-link {
-            position: absolute;
-            top: 10%;
-            left: 50%;
-            font-family: festive;
-            color: white;
-            transform: translate(-50%, -50%);
-            font-size: 110px;
-            transition: 1s ease;
-            text-align: center;
-            width: 70%;
-        }
-        
-        .cocktails-link:hover {
-            font-size: 120px;
-        }
-        
-        .music-link {
-            position: absolute;
-            top: 10%;
-            left: 50%;
-            font-family: festive;
-            color: white;
-            transform: translate(-50%, -50%);
-            font-size: 90px;
-            transition: 1s ease;
-            text-align: center;
-            width: 70%;
-        }
-        
-        .music-link:hover {
-            font-size: 100px;
-        }
-        
-        .food-link {
-            position: absolute;
-            top: 10%;
-            left: 50%;
-            font-family: festive;
-            color: white;
-            transform: translate(-50%, -50%);
-            font-size: 90px;
-            transition: 1s ease;
-            text-align: center;
-            width: 85%;
-        }
-        
-        .food-link:hover {
-            font-size: 100px;
-        }
-        
-        .location-section {
-            text-align: center;
-            height: 800px;
-            background-color: #666;
-            padding-top: 80px;
-            padding-left: 50px;
-            padding-right: 50px;
-        }
-        
-        .location-title {
-            font-family: Amatic SC;
-            font-size: 65px;
-            border-width: 1px;
-            border-style: solid;
-            border-color: #cc6600;
-        }
-        
-        .map-section {
-            display: flex;
-            height: 800px;
-        }
-        
-        #map {
-            height: 800px;
-            width: 50vw;
-        }
-        
-        #opening-times {
-            border-style: solid;
-            border-width: 1px;
-            border-color: #cc6600;
-            width: 1fr;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            font-size: 15px;
-        }
-        
-        button {
-            width: 140px;
-            height: 45px;
-        }
-        /*--------------------------------- links ----------------------------*/
-        /* unvisited link */
-        
-        a:link {
-            color: white;
-        }
-        /* visited link */
-        
-        a:visited {
-            color: green;
-        }
-        /* mouse over link */
-        
-        a:hover {
-            color: white;
-        }
-        /* selected link */
-        
-        a:active {
-            color: blue;
-        }
-        /*-------------------------- FOOTER ----------------------------------------*/
-        /* --------------- Social Links Icons supplied by (www.fontawesome.com)------*/
-        
-        footer {
-            padding-top: 25px;
-            letter-spacing: 2px;
-            text-align: center;
-            bottom: 10px;
-            position: relative;
-            width: 100%;
-            height: 300px;
-            background-color: #cc6600;
-            border-style: dashed;
-            position: relative;
-            align-items: center;
-        }
-        
-        .social-links {
-            padding-top: 35px;
-            padding-bottom: 35px;
-            text-align: center;
-            top: 300px;
-            border-style: double;
-        }
-        /*-------------------------- MEDIA SIZES ---------------------------------------------*/
-        /*-----  1024px - 769px: Small screens, laptops -------------*/
-        
-        @media all and (max-width: 768px) {
-            .title {
-                padding-top: 25px;
-                top: 100px;
-                font-size: 100px;
-                text-align: center;
-            }
-            .subtitle {
-                font-family: festive;
-                font-size: 45px;
-                color: white;
-            }
-            .hero {
-                background-image: url("./photos/hero1.jpg");
-                background-attachment: fixed;
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: cover;
-                height: 275px;
-                width: auto;
-                display: flex;
-                justify-content: center;
-            }
-            .section {
-                background-color: #666;
-                font-size: 35px;
-                color: white;
-                height: 900px;
-                display: flex;
-                justify-content: center;
-            }
-            .links {
-                height: 700px;
-                background-color: #796e63;
-            }
-            .links img {
-                height: 60%;
-                width: 60%;
-                transition: .3s ease;
-                display: flex;
-                justify-content: center;
-            }
-            .container-tabs img {
-                position: relative;
-                width: 225px;
-                height: 100%;
-                background-color: #cc6600;
-                display: flex;
-                justify-content: center;
-            }
-            .col {
-                position: relative;
-                transition: 1s ease;
-                background-color: #cc6600;
-                display: flex;
-                justify-content: center;
-                padding-top: 10px;
-            }
-            .cocktails-link {
-                position: absolute;
-                top: 15%;
-                left: 50%;
-                font-family: festive;
-                color: white;
-                transform: translate(-50%, -50%);
-                font-size: 30px;
-                transition: 1s ease;
-                text-align: center;
-                width: 70%;
-            }
-            .music-link {
-                position: absolute;
-                top: 15%;
-                left: 50%;
-                font-family: festive;
-                color: white;
-                transform: translate(-50%, -50%);
-                font-size: 30px;
-                transition: 1s ease;
-                text-align: center;
-                width: 70%;
-            }
-            .food-link {
-                position: absolute;
-                top: 15%;
-                left: 50%;
-                font-family: festive;
-                color: white;
-                transform: translate(-50%, -50%);
-                font-size: 30px;
-                transition: 1s ease;
-                text-align: center;
-                width: 85%;
-            }
-        }
-        /*-------------- 425px ------------------------*/
-        
-        @media all and (max-width: 425px) {
-            .title {
-                font-size: 55px;
-            }
-            .subtitle {
-                font-size: 40px;
-            }
-        }
-        /*-------- 768px - 481px: Tablet devices ----------------------------*/
-        
-        @media all and (max-width: 375px) {
-            body {
-                padding: 0;
-            }
-            .title {
-                font-size: 60px;
-                width: 100%;
-                top: 100px;
-            }
-            .subtitle {
-                font-size: 30px;
-            }
-            .hero {
-                background-image: url("./photos/hero1.jpg");
-                background-attachment: fixed;
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: cover;
-                height: 200px;
-                width: 100%;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-            }
-            .container-tabs img {
-                position: relative;
-                width: 150px;
-                height: 100%;
-                background-color: #cc6600;
-                display: flex;
-                justify-content: center;
-                width: 100%;
-            }
-            .col {
-                position: relative;
-                transition: 1s ease;
-                background-color: #cc6600;
-                display: flex;
-                justify-content: center;
-                padding-top: 10px;
-            }
-            .cocktails-link {
-                position: absolute;
-                top: 10%;
-                left: 50%;
-                font-family: festive;
-                color: white;
-                transform: translate(-50%, -50%);
-                font-size: 30px;
-                transition: 1s ease;
-                text-align: center;
-                width: 100%;
-            }
-            .music-link {
-                position: absolute;
-                top: 10%;
-                left: 50%;
-                font-family: festive;
-                color: white;
-                transform: translate(-50%, -50%);
-                font-size: 30px;
-                transition: 1s ease;
-                text-align: center;
-                width: 100%;
-            }
-            .food-link {
-                position: absolute;
-                top: 10%;
-                left: 50%;
-                font-family: festive;
-                color: white;
-                transform: translate(-50%, -50%);
-                font-size: 30px;
-                transition: 1s ease;
-                text-align: center;
-                width: 100%;
-            }
-            .location-section {
-                text-align: center;
-                height: 300px;
-                width: 50%;
-                background-color: #666;
-                padding-top: 10px;
-                padding-left: 5px;
-                padding-right: 5px;
-            }
-            .location-title {
-                font-family: Amatic SC;
-                font-size: 20px;
-                border-width: 1px;
-                border-color: #cc6600;
-            }
-            .map-section {
-                display: flex;
-                height: 100px;
-            }
-            #map {
-                height: 100px;
-                width: 100vw;
-            }
-            #opening-times {
-                border-style: solid;
-                border-width: 1px;
-                border-color: #cc6600;
-                width: 1fr;
-                font-family: Verdana, Geneva, Tahoma, sans-serif;
-                font-size: 15px;
-            }
-            button {
-                width: 140px;
-                height: 45px;
-            }
-        }
-        /*-------- 768px - 481px: Tablet devices ----------------------------*/
-        
-        @media all and (max-width: 320px) {
-            .title {
-                top: 100px;
-                font-size: 50px;
-                width: 85%;
-            }
-            .subtitle {
-                font-size: 20px;
-            }
-            .hero {
-                background-image: url("./photos/hero1.jpg");
-                background-attachment: fixed;
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: cover;
-                height: 200px;
-                width: 100%;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-            }
-            .container-tabs img {
-                position: relative;
-                width: 100%;
-                height: 100%;
-                background-color: #cc6600;
-            }
-            .col {
-                position: relative;
-                transition: 1s ease;
-                background-color: #cc6600;
-                display: flex;
-            }
-            .cocktails-link {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                top: 10%;
-                left: 50%;
-                font-family: festive;
-                color: white;
-                transform: translate(-50%, -50%);
-                font-size: 20px;
-                transition: 1s ease;
-                text-align: center;
-                width: 70%;
-            }
-            .music-link {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                top: 10%;
-                left: 50%;
-                font-family: festive;
-                color: white;
-                transform: translate(-50%, -50%);
-                font-size: 18px;
-                transition: 1s ease;
-                text-align: center;
-                width: 70%;
-            }
-            .food-link {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                top: 10%;
-                left: 50%;
-                font-family: festive;
-                color: white;
-                transform: translate(-50%, -50%);
-                font-size: 20px;
-                transition: 1s ease;
-                text-align: center;
-                width: 85%;
-            }
-            .location-section {
-                text-align: center;
-                height: 800px;
-                width: 410px;
-                background-color: #666;
-                padding-top: 80px;
-                padding-left: 50px;
-                padding-right: 50px;
-            }
-            .location-title {
-                font-family: Amatic SC;
-                font-size: 20px;
-                border-width: 1px;
-                border-color: #cc6600;
-            }
-            .map-section {
-                position: absolute;
-                width: 100%;
-                height: 100px;
-            }
-            #map {
-                height: 200px;
-                width: 100vw;
-            }
-            #opening-times {
-                border-style: solid;
-                border-width: 1px;
-                border-color: #cc6600;
-                width: 1fr;
-                font-family: Verdana, Geneva, Tahoma, sans-serif;
-                font-size: 15px;
-            }
-            button {
-                width: 30px;
-                height: 30px;
-            }
-        }
+/*------------------Google Font Links----------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Pacifico&display=swap');
+header {
+    padding: 0px;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+}
+
+marquee {
+    background-color: #cc6600;
+}
+
+
+/*---------- Navbar code from Bootstrap 5 ------------------------*/
+
+nav {
+    font-size: 25px;
+    width: 100%;
+    position: fixed;
+}
+
+
+/*-------------------------- General styles --------------------------*/
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: Amatic SC;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*------------------ Dropdown Navbar ---------------*/
+
+.customNavBar {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+
+/* ------------------------------------ This div is the section that holds the link boxes for cocktails, live music and food -----*/
+
+.title {
+    top: -300px;
+    float: left;
+    font-size: 200px;
+    font-family: Black Ops One;
+    color: #cc6600;
+}
+
+.subtitle {
+    font-family: festive;
+    font-size: 75px;
+    color: white;
+}
+
+.section {
+    background-color: #666;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+    height: 810px;
+    width: 100%;
+    text-align: center;
+}
+
+.hero {
+    background-image: url("./photos/hero1.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    width: 100%;
+}
+
+.container-tabs img {
+    position: relative;
+    width: 600px;
+    height: 100%;
+    background-color: #cc6600;
+}
+
+.col {
+    position: relative;
+    transition: 1s ease;
+    background-color: #cc6600;
+}
+
+a:hover {
+    opacity: 0.9;
+}
+
+.cocktails-link {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    font-family: festive;
+    color: white;
+    transform: translate(-50%, -50%);
+    font-size: 110px;
+    transition: 1s ease;
+    text-align: center;
+    width: 70%;
+}
+
+.cocktails-link:hover {
+    font-size: 120px;
+}
+
+.music-link {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    font-family: festive;
+    color: white;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+    transition: 1s ease;
+    text-align: center;
+    width: 70%;
+}
+
+.music-link:hover {
+    font-size: 100px;
+}
+
+.food-link {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    font-family: festive;
+    color: white;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+    transition: 1s ease;
+    text-align: center;
+    width: 85%;
+}
+
+.food-link:hover {
+    font-size: 100px;
+}
+
+.location-section {
+    text-align: center;
+    height: 800px;
+    background-color: #666;
+    padding-top: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.location-title {
+    font-family: Amatic SC;
+    font-size: 65px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #cc6600;
+}
+
+
+/*------------------------ API (Google Maps courtesy of google API's) -----------*/
+
+.map-section {
+    display: flex;
+    height: 800px;
+}
+
+#map {
+    height: 800px;
+    width: 50vw;
+}
+
+
+/*-------------------- This is the section which shows the location and opening times -------------*/
+
+#opening-times {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #cc6600;
+    width: 1fr;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+button {
+    width: 140px;
+    height: 45px;
+}
+
+
+/*--------------------------------- links ----------------------------*/
+
+
+/* unvisited link */
+
+a:link {
+    color: white;
+}
+
+
+/* visited link */
+
+a:visited {
+    color: green;
+}
+
+
+/* mouse over link */
+
+a:hover {
+    color: white;
+}
+
+
+/* selected link */
+
+a:active {
+    color: blue;
+}
+
+
+/*-------------------------- FOOTER ----------------------------------------*/
+
+
+/* --------------- Social Links Icons supplied by (www.fontawesome.com)------*/
+
+footer {
+    padding-top: 25px;
+    letter-spacing: 2px;
+    text-align: center;
+    bottom: 10px;
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: #cc6600;
+    border-style: dashed;
+    position: relative;
+    align-items: center;
+}
+
+.social-links {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    text-align: center;
+    top: 300px;
+    border-style: double;
+}
+
+
+/*-------------------------- MEDIA SIZES ---------------------------------------------*/
+
+
+/*--------------------- Laptop Size -------------------------------------------------*/
+
+@media only screen and (max-width: 1024px) {
+    .title {
+        font-size: 180px;
+    }
+}
+
+
+/*----------------------- Tablet Size -------------------------------------------------*/
+
+@media only screen and (max-width: 768px) {
+    .title {
+        font-size: 120px;
+    }
+    .subtitle {
+        font-size: 55px;
+    }
+    .section {
+        background-color: #666;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        color: white;
+        height: 810px;
+        width: 100%;
+        text-align: center;
+    }
+    .hero {
+        background-image: url("./photos/hero1.png");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .container-tabs img {
+        position: relative;
+        width: 500px;
+        height: 100%;
+        background-color: #cc6600;
+    }
+    .col {
+        position: relative;
+        transition: 1s ease;
+        background-color: #cc6600;
+        display: flex;
+        justify-content: center;
+    }
+    .cocktails-link {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        font-family: festive;
+        color: white;
+        transform: translate(-50%, -50%);
+        font-size: 70px;
+        transition: 1s ease;
+        text-align: center;
+        width: 70%;
+    }
+    .music-link {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        font-family: festive;
+        color: white;
+        transform: translate(-50%, -50%);
+        font-size: 70px;
+        transition: 1s ease;
+        text-align: center;
+        width: 70%;
+    }
+    .food-link {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        font-family: festive;
+        color: white;
+        transform: translate(-50%, -50%);
+        font-size: 70px;
+        transition: 1s ease;
+        text-align: center;
+        width: 85%;
+    }
+    .location-section {
+        text-align: center;
+        height: 800px;
+        background-color: #666;
+        padding-top: 80px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .location-title {
+        font-family: Amatic SC;
+        font-size: 65px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #cc6600;
+    }
+    /*------------------------ API (Google Maps courtesy of google API's) -----------*/
+    .map-section {
+        display: flex;
+        height: 800px;
+    }
+    #map {
+        height: 800px;
+        width: 50vw;
+    }
+    /*-------------------- This is the section which shows the location and opening times -------------*/
+    #opening-times {
+        border-style: solid;
+        border-width: 1px;
+        border-color: #cc6600;
+        width: 1fr;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+    }
+    button {
+        width: 140px;
+        height: 45px;
+    }
+}
+
+
+/*----------------------------- Mobile Large Size ------------------------------------------*/
+
+@media only screen and (max-width: 425px) {}
+
+
+}
+
+/*-------------------------- Mobile Medium Size ---------------------------------------*/
+@media only screen and (max-width: 375px) {}
+
+}
+
+/*---------------------------- Mobile Small Size ----------------------------------------*/
+@media only screen and (max-width: 320px) {}
+
+}
