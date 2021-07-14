@@ -255,112 +255,18 @@ footer {
 /*-------------------------- MEDIA SIZES ---------------------------------------------*/
 
 
-/*------ LAPTOP SIZE ------------*/
-
-@media all and (max-width: 1024px) {
-    .title {
-        font-size: 150px;
-        text-align: center;
-        top: -700px;
-        float: center;
-    }
-    .subtitle {
-        font-family: festive;
-        font-size: 55px;
-        color: white;
-    }
-    .hero {
-        background-image: url("./photos/hero1.jpg");
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 400px;
-        align-items: center;
-        display: flex;
-        justify-content: center;
-    }
-    .container-tabs img {
-        position: relative;
-        width: 300px;
-        height: 100%;
-        background-color: #cc6600;
-        border-style: dotted;
-    }
-    .cocktails-link {
-        position: absolute;
-        top: 10%;
-        left: 50%;
-        font-family: festive;
-        color: white;
-        transform: translate(-50%, -50%);
-        font-size: 50px;
-        transition: 1s ease;
-        text-align: center;
-        width: 70%;
-    }
-    .cocktails-link:hover {
-        font-size: 120px;
-    }
-    .music-link {
-        position: absolute;
-        top: 10%;
-        left: 50%;
-        font-family: festive;
-        color: white;
-        transform: translate(-50%, -50%);
-        font-size: 50px;
-        transition: 1s ease;
-        text-align: center;
-        width: 70%;
-    }
-    .music-link:hover {
-        font-size: 100px;
-    }
-    .food-link {
-        position: absolute;
-        top: 10%;
-        left: 50%;
-        font-family: festive;
-        color: white;
-        transform: translate(-50%, -50%);
-        font-size: 50px;
-        transition: 1s ease;
-        text-align: center;
-        width: 85%;
-    }
-    .food-link:hover {
-        font-size: 100px;
-    }
-    .container-tabs img {
-        position: relative;
-        width: 300px;
-        height: 100%;
-        background-color: #cc6600;
-    }
-    .map-section {
-        display: flex;
-        height: 100px;
-    }
-    #map {
-        height: 500px;
-        width: 50vw;
-    }
-}
-
-
-/*------ TABLET SIZE ------------*/
+/*-----  1024px - 769px: Small screens, laptops -------------*/
 
 @media all and (max-width: 768px) {
     .title {
-        font-size: 130px;
+        font-size: 100px;
         text-align: center;
         top: -500px;
         border-style: dashed;
     }
     .subtitle {
         font-family: festive;
-        font-size: 45px;
+        font-size: 55px;
         color: white;
     }
     .hero {
@@ -392,11 +298,11 @@ footer {
 }
 
 
-/*-------- i Phone 6/7/8 ----------------------------*/
+/*-------- 768px - 481px: Tablet devices ----------------------------*/
 
-@media all and (max-width: 736px) {
+@media all and (max-width: 320px) {
     .title {
-        font-size: 100px;
+        font-size: 50px;
     }
     .subtitle {
         font-size: 25px;
@@ -414,54 +320,25 @@ footer {
     }
     .container-tabs img {
         position: relative;
-        width: 300px;
+        width: 150px;
         height: 100%;
         background-color: #cc6600;
         border-style: dotted;
     }
-}
-
-
-/*------ MOBILE HANDSET SIZE ------------*/
-
-@media all and (max-width: 425px) {
-    .title {
-        font-size: 55px;
-        text-align: center;
-        top: -500px;
-        float: center;
-    }
-    .subtitle {
-        font-family: festive;
-        font-size: 25px;
-        color: white;
-    }
-    .hero {
-        background-image: url("./photos/hero1.jpg");
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 200px;
-        align-items: center;
-        display: flex;
-        justify-content: center;
-    }
-    .container-tabs img {
+    .col {
         position: relative;
-        width: 300px;
-        height: 100%;
+        transition: 1s ease;
         background-color: #cc6600;
         border-style: dotted;
     }
     .cocktails-link {
         position: absolute;
-        top: 10%;
-        left: 50%;
+        top: 50%;
+        left: 70%;
         font-family: festive;
         color: white;
         transform: translate(-50%, -50%);
-        font-size: 50px;
+        font-size: 40px;
         transition: 1s ease;
         text-align: center;
         width: 70%;
@@ -471,12 +348,12 @@ footer {
     }
     .music-link {
         position: absolute;
-        top: 10%;
-        left: 50%;
+        top: 50%;
+        left: 70%;
         font-family: festive;
         color: white;
         transform: translate(-50%, -50%);
-        font-size: 50px;
+        font-size: 40px;
         transition: 1s ease;
         text-align: center;
         width: 70%;
@@ -486,125 +363,53 @@ footer {
     }
     .food-link {
         position: absolute;
-        top: 10%;
-        left: 50%;
+        top: 50%;
+        left: 70%;
         font-family: festive;
         color: white;
         transform: translate(-50%, -50%);
-        font-size: 50px;
+        font-size: 40px;
         transition: 1s ease;
         text-align: center;
         width: 85%;
     }
-    .food-link:hover {
-        font-size: 100px;
+    .location-section {
+        text-align: center;
+        height: 800px;
+        background-color: #666;
+        padding-top: 80px;
+        padding-left: 50px;
+        padding-right: 50px;
     }
-    .container-tabs img {
-        position: relative;
-        width: 300px;
-        height: 100%;
-        background-color: #cc6600;
+    .location-title {
+        font-family: Amatic SC;
+        font-size: 65px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #cc6600;
     }
     .map-section {
         display: flex;
-        height: 100px;
+        height: 800px;
     }
-    #map {
-        height: 500px;
-        width: 50vw;
-    }
-}
-
-
-/*----------- SMALLER HANDSET ---------------------*/
-
-@media screen and (max-width: 375px) {
-    .title {
+    #opening-times {
+        border-style: solid;
+        border-width: 1px;
+        border-color: #cc6600;
+        width: 1fr;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 15px;
-        text-align: center;
-        float: center;
-        top: -200px;
     }
-    .subtitle {
-        font-family: festive;
-        font-size: 55px;
-        color: white;
+    button {
+        width: 140px;
+        height: 45px;
     }
-    .hero {
-        background-image: url("./photos/hero1.jpg");
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 200px;
-        align-items: center;
-        display: flex;
-        justify-content: center;
-    }
-    .container-tabs img {
-        position: relative;
-        width: 300px;
-        height: 100%;
-        background-color: #cc6600;
-        border-style: dotted;
-    }
-    .cocktails-link {
-        position: absolute;
-        top: 10%;
-        left: 50%;
-        font-family: festive;
-        color: white;
-        transform: translate(-50%, -50%);
-        font-size: 50px;
-        transition: 1s ease;
-        text-align: center;
-        width: 70%;
-    }
-    .cocktails-link:hover {
-        font-size: 120px;
-    }
-    .music-link {
-        position: absolute;
-        top: 10%;
-        left: 50%;
-        font-family: festive;
-        color: white;
-        transform: translate(-50%, -50%);
-        font-size: 50px;
-        transition: 1s ease;
-        text-align: center;
-        width: 70%;
-    }
-    .music-link:hover {
-        font-size: 100px;
-    }
-    .food-link {
-        position: absolute;
-        top: 10%;
-        left: 50%;
-        font-family: festive;
-        color: white;
-        transform: translate(-50%, -50%);
-        font-size: 50px;
-        transition: 1s ease;
-        text-align: center;
-        width: 85%;
-    }
-    .food-link:hover {
-        font-size: 100px;
-    }
-    .container-tabs img {
-        position: relative;
-        width: 300px;
-        height: 100%;
-        background-color: #cc6600;
-    }
-    .map-section {
-        display: flex;
-        height: 100px;
-    }
-    #map {
-        height: 500px;
-        width: 50vw;
-    }
+}
+
+
+/*-------- 480px - 320px: Mobile devices ----------------------------*/
+
+@media all and (max-width: 480px) {}
+
+
 }
