@@ -64,16 +64,6 @@ p {
     color: white;
 }
 
-.section {
-    background-color: #666;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    color: white;
-    height: 810px;
-    width: 100%;
-    text-align: center;
-}
-
 .hero {
     background-image: url("./photos/hero1.png");
     background-attachment: fixed;
@@ -185,6 +175,16 @@ a:hover {
 
 /*-------------------- This is the section which shows the location and opening times -------------*/
 
+.section {
+    background-color: #666;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+    height: 810px;
+    width: 100%;
+    text-align: center;
+}
+
 #opening-times {
     border-style: solid;
     border-width: 1px;
@@ -280,15 +280,6 @@ footer {
     .subtitle {
         font-size: 55px;
     }
-    .section {
-        background-color: #666;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        color: white;
-        height: 810px;
-        width: 100%;
-        text-align: center;
-    }
     .hero {
         background-image: url("./photos/hero1.png");
         background-attachment: fixed;
@@ -365,6 +356,15 @@ footer {
         border-color: #cc6600;
     }
     /*------------------------ API (Google Maps courtesy of google API's) -----------*/
+    .section {
+        background-color: #666;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        color: white;
+        height: 810px;
+        width: 100%;
+        text-align: center;
+    }
     .map-section {
         display: flex;
         height: 800px;
@@ -391,13 +391,126 @@ footer {
 
 /*----------------------------- Mobile Large Size ------------------------------------------*/
 
-@media only screen and (max-width: 425px) {}
-
-
+@media only screen and (max-width: 425px) {
+    .title {
+        font-size: 75px;
+    }
+    .subtitle {
+        font-size: 35px;
+    }
+    .hero {
+        background-image: url("./photos/hero1.png");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+    }
+    .container-tabs img {
+        position: relative;
+        width: 500px;
+        height: 100%;
+        background-color: #cc6600;
+    }
+    .col {
+        position: relative;
+        transition: 1s ease;
+        background-color: #cc6600;
+        display: flex;
+        justify-content: center;
+    }
+    .cocktails-link {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        font-family: festive;
+        color: white;
+        transform: translate(-50%, -50%);
+        font-size: 60px;
+        transition: 1s ease;
+        text-align: center;
+        width: 100%;
+    }
+    .music-link {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        font-family: festive;
+        color: white;
+        transform: translate(-50%, -50%);
+        font-size: 60px;
+        transition: 1s ease;
+        text-align: center;
+        width: 100%;
+    }
+    .food-link {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        font-family: festive;
+        color: white;
+        transform: translate(-50%, -50%);
+        font-size: 60px;
+        transition: 1s ease;
+        text-align: center;
+        width: 100%;
+    }
+    .location-section {
+        text-align: center;
+        height: 800px;
+        background-color: #666;
+        padding-top: 80px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .location-title {
+        font-family: Amatic SC;
+        font-size: 65px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #cc6600;
+    }
+    /*------------------------ API (Google Maps courtesy of google API's) -----------*/
+    .section {
+        background-color: #666;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        color: white;
+        height: 810px;
+        width: 100%;
+        text-align: center;
+        border-style: dashed;
+    }
+    .map-section {
+        display: flex;
+        height: 800px;
+    }
+    #map {
+        height: 800px;
+        width: 50vw;
+    }
+    /*-------------------- This is the section which shows the location and opening times -------------*/
+    #opening-times {
+        border-style: solid;
+        border-width: 1px;
+        border-color: #cc6600;
+        width: 1fr;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+    }
+    button {
+        width: 140px;
+        height: 45px;
+    }
 }
 
+
 /*-------------------------- Mobile Medium Size ---------------------------------------*/
+
 @media only screen and (max-width: 375px) {}
+
 
 }
 
