@@ -437,6 +437,9 @@ footer {
         width: 100%;
         border-style: dashed;
     }
+    .cocktails-link:hover {
+        font-size: 60px;
+    }
     .music-link {
         font-size: 50px;
         position: absolute;
@@ -450,6 +453,9 @@ footer {
         width: 100%;
         border-style: dashed;
     }
+    .music-link:hover {
+        font-size: 60px;
+    }
     .food-link {
         position: absolute;
         top: 10%;
@@ -461,6 +467,9 @@ footer {
         transition: 1s ease;
         text-align: center;
         width: 100%;
+    }
+    .food-link:hover {
+        font-size: 60px;
     }
     .location-section {
         text-align: center;
