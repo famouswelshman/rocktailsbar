@@ -21,6 +21,16 @@ I wanted to create a website that could would almost spoon feed its users what e
 
 # WEBSITE UX
 
+Idea for a 3 page website that gave user quick navigation of it's content and focused on showcasing it's main functions - Food & drinks and live music.
+
+Index Page – Bar picture for hero pic with scroll down to menu, live music and cocktails.
+The index page includes map API at the bottom to show location of the venue.
+
+Live Music Page – Music background picture with a paragraph on what goes on at the venue regarding music and events.
+
+Tapas & burgers Page – Menu style breakdown of the Tapas and Burgers foods available at the venue. PDF pop out of the menu if possible.
+
+Contact via contact link in the navbar would scroll to the bottom of the page to show the contact details and social media links.
 
 
 
@@ -28,7 +38,8 @@ I wanted to create a website that could would almost spoon feed its users what e
 1. Responsive Navbar (Bootstrap)
 2. Google Maps API 
 3. Opening Times button written via Javascript 'onClick'.
-4. 
+4. Popup Food menu.
+5. Social Media Links
 
 
 
@@ -38,10 +49,10 @@ I wanted to create a website that could would almost spoon feed its users what e
 The website features a basic interactive navbar to navigate the site with ease. This navbar which is a product of the Bootstrap code will be present on all pages and will adapt to each resolution by compressing the navbar options content to a dropdown icon when shown on smaller devices. I kept the navbar style as 'light' so it would not clutter the page.
 
 ### - __Footer and Social Media Links__
-The footer for the website is consistent across all pages and gives the user acces to click on a social media link external to the site and also clickable links within the wesbite.
+The footer for the website is consistent across all pages and gives the user acces to click on a social media links that open externally.
 
 # FUTURE FEATURES
-The future aim of the site is to encourage returning visitors of the page to purchase the band related merchandise such as T-shirts and Logo Stickers. Additional media material will be available for user to view such as videos and downloadable music tracks exclusive to the website.
+The future aim of the site is to attract new customers to a trendy, live music venue whilst they are on holiday and near the venue. Similar to brands such as Pacha and SPACE, the aim of the website was to also sell merchandise and offer access to events. Build upon the brand of 'Cocktails' and market it as 'the top live music venue in Ibiza'!
 
 # TYPOGRAPHY AND COLOUR SCHEME
 Since the theme of this website is that of a trendy, live music and drinks venue, I opted for some styles that would reflect and enhance the kind of things offered at the bar venue. Cocktails and tapas traditionally have some association with italic style writing which I used primarily for the links to other pages offering drinks, live music and food pages.
@@ -64,7 +75,7 @@ Balsamic was a real help in enabling me to visualize my web content across each 
 
 I researched websites online so that I could narrow down my use of colours for the design and since my focus was to create an ambient, chilled and artistic vibe I opeted for the subtle use of tungsten which is similar to the lighting at the venue. My vision for this website although fictitious was to give the user an idea and feel for a place just from viewing the website. Returning users would have some affiliation to this colour scheme since the venue would reflect the same colour scheme.
 
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 1. Index Page
 ![Index Page Design](https://famouswelshman.github.io/thenewbypassers/Wireframes/Index-Page.png "Index page Wireframe")
@@ -116,7 +127,8 @@ Photo by Davey Gravy on Unsplash
 Photo by Sophia Sideri on Unsplash
 Photo by Aleisha Kalina on Unsplash
 Photo by Aleisha Kalina on Unsplash
-
+Photo by Nick Moore on Unsplash
+  
 
 # TESTING CREDITS 
 
@@ -128,18 +140,19 @@ Navbar and dropdown toggle button for smaller devices was obtained via Bootstrap
 
 
 2. W3Schools (www.w3schools.com)
+This website offered me ideas for using Javascript within my website and therefore I created my own JS script for the functionality of the 'Opening Times' button situated on the index page which upon 'onClick' will reveal the neccessary information. A simple, quick function but effective as a form of interactivity. I wanted to credit this website for it's ideas and learning content.
 
 3. Dev.to (https://dev.to) - This website is where I obtained some simple JavaScript code to enable a Dark Mode functional button within the content of my website. The code was a simple snippet of Javascript which argumented the change in background color via CSS when interacting via a button.
 
 
-
 # FONT CREDITS
 1. Font Awesome - (www.fontawesome.com)
-@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
-
+N/a
 
 
 2. Google Fonts - (https://fonts.google.com/)
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Pacifico&display=swap');
 
 
