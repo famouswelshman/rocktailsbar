@@ -95,7 +95,7 @@ I researched websites online so that I could narrow down my use of colours for t
 2. Via Github pages
 
 # TESTING
-
+When the website was loaded in GitHub I realised that the Javascript written was not functioning within the website. The reason for this was that the path file for the external JS file was entered into the index page as absolute and not relative causing the Javascript not to load. This was a clear error on my part and was quickly realised. It seemed that the link to the CSS file was correct (relative) and therefore worked correctly.s
 
 
 
