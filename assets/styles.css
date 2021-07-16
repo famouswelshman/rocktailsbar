@@ -70,6 +70,16 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 1200px;
+    width: 100%;
+}
+
+.hero-music {
+    background-image: url("./photos/nick-moore-5zWN8DTNeVA-unsplash.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 900px;
     width: 100%;
 }
