@@ -13,6 +13,9 @@ The website had to be bold and vibrant with some mellow colours giving it a glow
 
 I wanted to create a website that could would almost spoon feed its users what exactly the venue offers and where to see it.
 
+*Please note* - This bar and its contents are purely fictitious and not actively trading or operating as a business. The name and it's contents are purely for the purpose of showcasing a website idea. The currency and the costs of anything in this website are merely for display purpose and are not factually accurate.
+
+
 # USER STORIES
 
 ![User story 1](https://github.com/famouswelshman/rocktailsbar/blob/main/wireframes/index%20page.png "User story 1")
@@ -129,6 +132,9 @@ Photo by Aleisha Kalina on Unsplash
 Photo by Aleisha Kalina on Unsplash
 Photo by Nick Moore on Unsplash
 The Tapas Menu template is credited to - https://www.angelosristorante.co.uk for use of it's layout.
+The Cocktails Menu template is credited to - https://theitalianglossop.co.uk for use of it's layout.
+
+*Please note that the menu for both the cocktails and the Tapas are for illustration purposed only and are not entirely correct according to currency or pricing. They are only for the puropose of the website which is fictitious and not a registered, actively operating business*.
 
 # TESTING CREDITS 
 
