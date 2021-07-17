@@ -84,23 +84,32 @@ p {
     width: 100%;
 }
 
+.hero-food {
+    background-image: url("./photos/hero_food.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    width: 200%;
+}
+
+
+}
 .container-tabs img {
     position: relative;
     width: 600px;
     height: 100%;
     background-color: #cc6600;
 }
-
 .col {
     position: relative;
     transition: 1s ease;
     background-color: #cc6600;
 }
-
 a:hover {
     opacity: 0.9;
 }
-
 .cocktails-link {
     position: absolute;
     top: 10%;
@@ -113,11 +122,9 @@ a:hover {
     text-align: center;
     width: 70%;
 }
-
 .cocktails-link:hover {
     font-size: 120px;
 }
-
 .music-link {
     position: absolute;
     top: 10%;
@@ -130,11 +137,9 @@ a:hover {
     text-align: center;
     width: 70%;
 }
-
 .music-link:hover {
     font-size: 100px;
 }
-
 .food-link {
     position: absolute;
     top: 10%;
@@ -147,11 +152,9 @@ a:hover {
     text-align: center;
     width: 85%;
 }
-
 .food-link:hover {
     font-size: 100px;
 }
-
 .location-section {
     text-align: center;
     height: 800px;
@@ -160,7 +163,6 @@ a:hover {
     padding-left: 50px;
     padding-right: 50px;
 }
-
 .location-title {
     font-family: Amatic SC;
     font-size: 65px;
@@ -169,22 +171,17 @@ a:hover {
     border-color: #cc6600;
 }
 
-
 /*------------------------ API (Google Maps courtesy of google API's) -----------*/
-
 .map-section {
     display: flex;
     height: 800px;
 }
-
 #map {
     height: 800px;
     width: 50vw;
 }
 
-
 /*-------------------- This is the section which shows the location and opening times -------------*/
-
 .section {
     background-color: #666;
     display: grid;
@@ -194,7 +191,6 @@ a:hover {
     width: 100%;
     text-align: center;
 }
-
 #opening-times {
     border-style: solid;
     border-width: 1px;
@@ -203,49 +199,36 @@ a:hover {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
 }
-
 button {
     width: 140px;
     height: 45px;
 }
 
-
 /*--------------------------------- links ----------------------------*/
 
-
 /* unvisited link */
-
 a:link {
     color: white;
 }
 
-
 /* visited link */
-
 a:visited {
     color: green;
 }
 
-
 /* mouse over link */
-
 a:hover {
     color: white;
 }
 
-
 /* selected link */
-
 a:active {
     color: blue;
 }
 
-
 /*-------------------------- FOOTER ----------------------------------------*/
 
-
 /* --------------- Social Links Icons supplied by (www.fontawesome.com)------*/
-
 footer {
     padding-top: 25px;
     letter-spacing: 2px;
@@ -259,7 +242,6 @@ footer {
     position: relative;
     align-items: center;
 }
-
 .social-links {
     padding-top: 35px;
     padding-bottom: 35px;
@@ -268,28 +250,25 @@ footer {
     border-style: double;
 }
 
-
 /*-------------------------- MEDIA SIZES ---------------------------------------------*/
 
-
 /*--------------------- Laptop Size -------------------------------------------------*/
-
 @media only screen and (max-width: 1024px) {
     .title {
         font-size: 180px;
     }
 }
 
-
 /*----------------------- Tablet Size -------------------------------------------------*/
-
 @media only screen and (max-width: 768px) {
     .title {
         font-size: 120px;
     }
+    
     .subtitle {
         font-size: 55px;
     }
+    
     .hero {
         background-image: url("./photos/hero1.png");
         background-attachment: fixed;
@@ -301,12 +280,14 @@ footer {
         display: flex;
         justify-content: center;
     }
+    
     .container-tabs img {
         position: relative;
         width: 500px;
         height: 100%;
         background-color: #cc6600;
     }
+    
     .col {
         position: relative;
         transition: 1s ease;
@@ -314,6 +295,7 @@ footer {
         display: flex;
         justify-content: center;
     }
+    
     .cocktails-link {
         position: absolute;
         top: 10%;
@@ -326,6 +308,7 @@ footer {
         text-align: center;
         width: 70%;
     }
+    
     .music-link {
         position: absolute;
         top: 10%;
@@ -338,6 +321,7 @@ footer {
         text-align: center;
         width: 70%;
     }
+    
     .food-link {
         position: absolute;
         top: 10%;
@@ -350,6 +334,7 @@ footer {
         text-align: center;
         width: 85%;
     }
+    
     .location-section {
         text-align: center;
         height: 800px;
@@ -358,6 +343,7 @@ footer {
         padding-left: 50px;
         padding-right: 50px;
     }
+    
     .location-title {
         font-family: Amatic SC;
         font-size: 65px;
@@ -366,6 +352,7 @@ footer {
         border-color: #cc6600;
     }
     /*------------------------ API (Google Maps courtesy of google API's) -----------*/
+    
     .section {
         background-color: #666;
         display: grid;
@@ -375,15 +362,18 @@ footer {
         width: 100%;
         text-align: center;
     }
+    
     .map-section {
         display: flex;
         height: 800px;
     }
+    
     #map {
         height: 800px;
         width: 50vw;
     }
     /*-------------------- This is the section which shows the location and opening times -------------*/
+    
     #opening-times {
         border-style: solid;
         border-width: 1px;
@@ -392,25 +382,27 @@ footer {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 15px;
     }
+    
     button {
         width: 140px;
         height: 45px;
     }
 }
 
-
 /*----------------------------- Mobile Large Size ------------------------------------------*/
-
 @media only screen and (max-width: 425px) {
     body {
         width: 478px;
     }
+    
     .title {
         font-size: 75px;
     }
+    
     .subtitle {
         font-size: 35px;
     }
+    
     .hero {
         background-image: url("./photos/hero1.png");
         background-attachment: fixed;
@@ -420,6 +412,7 @@ footer {
         height: 300px;
         border-style: dashed;
     }
+    
     .container-tabs img {
         position: relative;
         height: 400px;
@@ -428,12 +421,14 @@ footer {
         display: flex;
         justify-content: center;
     }
+    
     .col {
         position: relative;
         transition: 1s ease;
         background-color: #cc6600;
         border-style: dashed;
     }
+    
     .cocktails-link {
         position: absolute;
         top: 10%;
@@ -447,9 +442,11 @@ footer {
         width: 100%;
         border-style: dashed;
     }
+    
     .cocktails-link:hover {
         font-size: 60px;
     }
+    
     .music-link {
         font-size: 50px;
         position: absolute;
@@ -463,9 +460,11 @@ footer {
         width: 100%;
         border-style: dashed;
     }
+    
     .music-link:hover {
         font-size: 60px;
     }
+    
     .food-link {
         position: absolute;
         top: 10%;
@@ -478,9 +477,11 @@ footer {
         text-align: center;
         width: 100%;
     }
+    
     .food-link:hover {
         font-size: 60px;
     }
+    
     .location-section {
         text-align: center;
         height: 800px;
@@ -489,6 +490,7 @@ footer {
         padding-left: 50px;
         padding-right: 50px;
     }
+    
     .location-title {
         font-family: Amatic SC;
         font-size: 65px;
@@ -497,6 +499,7 @@ footer {
         border-color: #cc6600;
     }
     /*------------------------ API (Google Maps courtesy of google API's) -----------*/
+    
     .section {
         background-color: #666;
         display: grid;
@@ -507,15 +510,18 @@ footer {
         text-align: center;
         border-style: dashed;
     }
+    
     .map-section {
         display: flex;
         height: 800px;
     }
+    
     #map {
         height: 800px;
         width: 50vw;
     }
     /*-------------------- This is the section which shows the location and opening times -------------*/
+    
     #opening-times {
         border-style: solid;
         border-width: 1px;
@@ -524,17 +530,15 @@ footer {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 15px;
     }
+    
     button {
         width: 140px;
         height: 45px;
     }
 }
 
-
 /*-------------------------- Mobile Medium Size ---------------------------------------*/
-
 @media only screen and (max-width: 375px) {}
-
 
 }
 

@@ -13,7 +13,7 @@ The website had to be bold and vibrant with some mellow colours giving it a glow
 
 I wanted to create a website that could would almost spoon feed its users what exactly the venue offers and where to see it.
 
-*Please note* - This bar and its contents are purely fictitious and not actively trading or operating as a business. The name and it's contents are purely for the purpose of showcasing a website idea. The currency and the costs of anything in this website are merely for display purpose and are not factually accurate.
+*Please note* - This bar and its contents are purely fictitious and not actively trading or operating as a business. The name and it's contents are purely for the purpose of showcasing a website idea. The currency and the costs of anything in this website are merely for display purpose and are not factually accurate. The name 'Rocktails' is also a made up name and is not licenced or owned by anyone causing any copyright issues. This website was constructed purely as a project for my 2nd Milestone and does not operate as anything else.
 
 
 # USER STORIES
@@ -131,6 +131,11 @@ Photo by Sophia Sideri on Unsplash
 Photo by Aleisha Kalina on Unsplash
 Photo by Aleisha Kalina on Unsplash
 Photo by Nick Moore on Unsplash
+Photo by Munro Studio on Unsplash
+Photo by Ewa Fournier le Ray on Unsplash
+Photo by Eaters Collective on Unsplash
+Photo by Miha Rekar on Unsplash
+  
 The Tapas Menu template is credited to - https://www.angelosristorante.co.uk for use of it's layout.
 The Cocktails Menu template is credited to - https://theitalianglossop.co.uk for use of it's layout.
 
