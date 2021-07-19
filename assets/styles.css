@@ -96,6 +96,7 @@ p {
     width: 100%;
     position: relative;
     text-align: center;
+    height: 1100px;
 }
 
 .menus img {
@@ -134,7 +135,7 @@ a:hover {
 }
 
 .cocktails-link:hover {
-    font-size: 120px;
+    font-size: 115px;
 }
 
 .music-link {
@@ -151,7 +152,7 @@ a:hover {
 }
 
 .music-link:hover {
-    font-size: 100px;
+    font-size: 95px;
 }
 
 .food-link {
@@ -168,7 +169,7 @@ a:hover {
 }
 
 .food-link:hover {
-    font-size: 100px;
+    font-size: 95px;
 }
 
 .location-section {
