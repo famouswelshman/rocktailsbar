@@ -105,11 +105,27 @@ I researched websites online so that I could narrow down my use of colours for t
 # DEPLOYMENT
 1. Via Github using Vs Code (Desktop files linked to GitHub and commits actioned locally)
 
+2. Google Map API - The placement of an API in the web content required a key by registering with Google API's. This key is specific to myself as a registered customer allowing me to host the API on the website.
+Each application would require a dedicated key in order for the API to work correctly within the website.
 
 2. Via Github pages
 
 # TESTING
-When the website was loaded in GitHub I realised that the Javascript written was not functioning within the website. The reason for this was that the path file for the external JS file was entered into the index page as absolute and not relative causing the Javascript not to load. This was a clear error on my part and was quickly realised. It seemed that the link to the CSS file was correct (relative) and therefore worked correctly.s
+
+1. Bugs
+When the website was loaded in GitHub I realised that the Javascript written was not functioning within the website. The reason for this was that the path file for the external JS file was entered into the index page as absolute and not relative causing the Javascript not to load. This was a clear error on my part and was quickly realised. It seemed that the link to the CSS file was correct (relative) and therefore worked correctly.
+
+
+2. Responsive Challenges
+Making this website responsive was a challenge. I ran the website using VS Code live server to reflect any changes and my biggest challenge was making the whole thing responsive for multiple screens. The google map API was coded inside of a section div and the purpose of this was to collapse the div when it reached a smaller resolution allowing the opening times section to be stacked above the Google Map display. I adjusted the size for both divs since they sat side by side but without success. 
+
+3. Javascript Code execution
+
+
+4. Loading speeds
+
+5. 
+
 
 
 
