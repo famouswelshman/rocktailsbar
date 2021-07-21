@@ -1,3 +1,5 @@
+/** This is the Google Maps API code for display of Maps on the Index page */
+
 let map;
 
 function initMap() {
@@ -16,13 +18,12 @@ function toggleTheme(theme) {
         body.classList.add('light')
     }
 }
-/*----------------- This is the button function script for Opening times on the index page-----*/
-function myFunction() {
-    document.getElementById("opening-times2").innerHTML = "Mon - 4pm until 4am";
-    document.getElementById("opening-times3").innerHTML = "Tue - 4am until 4pm";
-    document.getElementById("opening-times4").innerHTML = "Wed - 4am until 4pm";
-    document.getElementById("opening-times5").innerHTML = "Thur - 4am until 4pm";
-    document.getElementById("opening-times6").innerHTML = "Fri - 4am until 4pm";
-    document.getElementById("opening-times7").innerHTML = "Sat - 4am until 4pm";
-    document.getElementById("opening-times8").innerHTML = "Sun - Closed";
+/** ----------------- onclick button function script for show and hide of Opening times text on the index page-----*/
+function initializeOpeningTimes() {
+    var x = document.getElementById("myDIV");
+    if (x.style.display == "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
 }
