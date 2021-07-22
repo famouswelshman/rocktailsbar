@@ -8,7 +8,7 @@ function initMap() {
         zoom: 15,
     });
 }
-
+/** -- button click toggle runs 'Light Mode' and 'Dark Mode' where style is set by CSS and function run via JS */
 function toggleTheme(theme) {
     const body = document.body;
     body.classList.remove('dark', 'light')
@@ -18,7 +18,7 @@ function toggleTheme(theme) {
         body.classList.add('light')
     }
 }
-/** ----------------- onclick button function script for show and hide of Opening times text on the index page-----*/
+/** ---- onclick button function script for show and hide of Opening times text on the index page-----*/
 function initializeOpeningTimes() {
     var x = document.getElementById("myDIV");
     if (x.style.display == "block") {
