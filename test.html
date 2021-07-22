@@ -1,134 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Rocktails - Live music & cocktails bar - Ibiza</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-    <link rel="stylesheet" href="assets/styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>
+        How to dynamically set the height of a div element using jQuery?
+    </title>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js">
+    </script>
+
+    <style>
+        #div1 {
+            height: 50px;
+            width: 300px;
+            border: 2px solid black;
+        }
+        
+        h1 {
+            color: green;
+        }
+        
+        .box {
+            background: green;
+            border: 1px solid #ccc;
+            color: white;
+        }
+    </style>
 </head>
-<header>
-
-</header>
-
-
-<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-
-    <!--Dropdown Icon that will appear on smaller screens-->
-    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <!--Nav items-->
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-                <a href="index.html" class="nav-link">Home</a>
-            </li>
-            <li class="nav-item">
-                <a href="media.html" class="nav-link">Live Music</a>
-            </li>
-            <li class="nav-item">
-                <a href="about.html" class="nav-link">Menus</a>
-            </li>
-            <li class="nav-item">
-                <a href="#map" class="nav-link">Contact</a>
-            </li>
-        </ul>
-    </div>
-</nav>
 
 <body>
+    <center>
+        <h1>GeeksforGeeks</h1>
+        <h3>Dynamically set the height of a div element using jQuery</h3>
 
-    <h1>PDF Example</h1>
-    <p>Open a PDF file <a href="/wireframes/Pizza Menu Template.pdf">example</a>.</p>
-    <p>Open PDF in a seperate browser
-        <a href="/assets/photos/Tapas_Menu.pdf" target="_blank">click here</a>
-    </p>
-
-
-    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
-
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVS-7uyoUOfM_n2c809ATLNevbwqYoQBk&callback=initMap&libraries=&v=weekly" async></script>
-
-
-
-    <div class="section">
-        <div class="location-section">
-            <h1 class="location-title">Location</h1>
-            <h3 class="location-text">
-
-                <br> Rocktails Bar, <br> 42 Jay Avenue, <br> San Jose,
-                <br>Ibiza, <br>94088</h3>
-            <br>
-            <button onclick="initializeOpeningTimes()">Opening Times</button>
-
-            <div id="myDIV">
-                <table style="width:100%">
-
-                    <tr>
-                        <th><u>DAYS</u></th>
-                        <th><u>TIMES</u></th>
-                    </tr>
-                    <tr>
-                        <td>Monday</td>
-                        <td>4pm - 4am</td>
-                    </tr>
-                    <tr>
-                        <td>Tuesday</td>
-                        <td>4pm - 4am</td>
-                    </tr>
-                    <tr>
-                        <td>Wednesday</td>
-                        <td>4pm - 4am</td>
-                    </tr>
-                    <tr>
-                        <td>Thursday</td>
-                        <td>4pm - 4am</td>
-                    </tr>
-                    <tr>
-                        <td>Friday</td>
-                        <td>4pm - 4am</td>
-                    </tr>
-                    <tr>
-                        <td>Saturday</td>
-                        <td>4pm - 4am</td>
-                    </tr>
-                    <tr>
-                        <td>Sunday</td>
-                        <td>4pm - 4am</td>
-                    </tr>
-
-                </table>
-            </div>
+        <div id="div1" class="box">
+            Dynamically set content height of a div on GeeksforGeek.<br> GeeksforGeeks is a computer science portal which helps students to learn various programming language and master data structures and algorithms. There are various courses available
+            to learn new skills.
         </div>
-    </div>
-    <div class="map-section">
-        <div id="map">
+        <br>
+        <form>
+            <input type="text" class="geeks1">
+            <button type="button" class="geeks2">
+				Set Height
+			</button>
+        </form>
 
-        </div>
+        <p id="p1"></p>
+        <p id="p2"></p>
+    </center>
 
+    <script>
+        $(document).ready(function() {
+            $(".geeks2").click(function() {
 
-        <footer>
-            <div class="social-links">
-                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square fa-3x"></i></a>
-                <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square fa-3x"></i></a>
-                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram fa-3x"></i></a>
-                <i class="fas fa-envelope-square fa-3x"></i>
-            </div>
-            <br>
-            <p class="text-muted">COPYRIGHT 2021</p>
-        </footer>
+                var demo = "Previous-height: " +
+                    $("#div1").height(); +
+                "px";
+                $("#p1").text(demo);
 
+                var newHeight = $(".geeks1").val();
+                $(".box").height(newHeight);
 
-        <script src="assets/main.js" type="text/javascript"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-        <script src="https://kit.fontawesome.com/8165034b51.js" crossorigin="anonymous"></script>
-
-
+                demo = "New-height: " +
+                    $("#div1").height(); +
+                "px";
+                $("#p2").text(demo);
+            });
+        });
+    </script>
 </body>
 
 </html>
