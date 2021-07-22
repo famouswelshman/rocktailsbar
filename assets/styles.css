@@ -49,7 +49,7 @@ p {
 }
 
 
-/* ------------------------------------ This div is the section that holds the link boxes for cocktails, live music and food -----*/
+/* ---------- This div is the section that holds the link boxes for cocktails, live music and food -----*/
 
 .title {
     font-size: 200px;
@@ -203,7 +203,7 @@ a:hover {
 }
 
 
-/*-------------------- This is the section which shows the location and opening times -------------*/
+/*--------------- This is the section which shows the location and opening times - Javascript function  -------------*/
 
 .section {
     background-color: #666;
@@ -242,7 +242,7 @@ button {
 }
 
 
-/*--------------------------------- links ----------------------------*/
+/*--------------------------------- links on all pages  ----------------------------*/
 
 
 /* unvisited link */
