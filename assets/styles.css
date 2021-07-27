@@ -3,6 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Pacifico&display=swap');
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 header {
     padding: 0px;
     text-align: center;
@@ -89,6 +93,16 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     height: 800px;
+    width: 100%;
+}
+
+.hero-contact {
+    background-image: url("./photos/louis-hansel-dNgwsE2HRJw-unsplash.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
     width: 100%;
 }
 
@@ -297,6 +311,42 @@ footer {
 }
 
 
+/* ------------------------- Contact Form Styling -----------------------------------*/
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cc6600;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #cc6600;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #cc6600;
+    padding: 20px;
+    width: 50vw;
+}
+
+
 /*-------------------------- MEDIA SIZES ---------------------------------------------*/
 
 
@@ -318,7 +368,7 @@ footer {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 500px;
+        height: 5 00px;
         width: 100%;
     }
     .container-tabs {

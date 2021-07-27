@@ -8,18 +8,7 @@ function initMap() {
         zoom: 15,
     });
 }
-/** -- button click toggle runs 'Light Mode' and 'Dark Mode' where style is set by CSS and function run via JS */
 
-const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)');
-const toggle = document.querySelector('.toggle');
-const html = document.querySelector('html');
-
-html.dataset.dark = localStorage.dark || prefersDarkMode.matches;
-
-toggle.addEventListener('click', () => {
-    localStorage.dark = !(html.dataset.dark == 'true');
-    html.dataset.dark = localStorage.dark;
-});
 /** ---- onclick button function script for show and hide of Opening times text on the index page-----*/
 function initializeOpeningTimes() {
     var x = document.getElementById("myDIV");
