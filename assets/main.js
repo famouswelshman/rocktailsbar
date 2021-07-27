@@ -9,15 +9,17 @@ function initMap() {
     });
 }
 /** -- button click toggle runs 'Light Mode' and 'Dark Mode' where style is set by CSS and function run via JS */
-function toggleTheme(theme) {
-    const body = document.body;
-    body.classList.remove('dark', 'light')
-    if (theme == 'dark') {
-        body.classList.add('dark')
-    } else {
-        body.classList.add('light')
-    }
-}
+
+const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)');
+const toggle = document.querySelector('.toggle');
+const html = document.querySelector('html');
+
+html.dataset.dark = localStorage.dark || prefersDarkMode.matches;
+
+toggle.addEventListener('click', () => {
+    localStorage.dark = !(html.dataset.dark == 'true');
+    html.dataset.dark = localStorage.dark;
+});
 /** ---- onclick button function script for show and hide of Opening times text on the index page-----*/
 function initializeOpeningTimes() {
     var x = document.getElementById("myDIV");
@@ -28,7 +30,9 @@ function initializeOpeningTimes() {
     }
 }
 
-/** ----- Function calls on  */
+/**  The following code is for the contact form where upon when the fields are completed the function is called when the submit button is pressed 
+ * This code was part of the EmailJS code which required registration and the inclusion of an ID Key within the script code
+ */
 
 const btn = document.getElementById('button');
 

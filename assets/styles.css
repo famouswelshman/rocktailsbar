@@ -333,8 +333,8 @@ footer {
     .col {
         position: relative;
         transition: 1s ease;
+        grid-template-columns: 1fr;
         background-color: #cc6600;
-        display: flex;
         justify-content: center;
     }
     .cocktails-link {
@@ -544,12 +544,11 @@ footer {
         height: auto;
         width: auto;
         text-align: center;
-        border-style: dashed;
     }
     #myDIV {
         display: none;
         width: 100%;
-        height: 400px;
+        height: 320px;
         font-family: Amatic SC;
         font-size: 25px;
         text-align: center;
@@ -896,7 +895,157 @@ footer {
 
 /*---------------------------- Mobile Small Size ----------------------------------------*/
 
-@media only screen and (max-width: 320px) {}
-
-
+@media only screen and (max-width: 320px) {
+    body {
+        width: 100%;
+    }
+    .title {
+        font-size: 55px;
+        justify-content: center;
+    }
+    .subtitle {
+        font-size: 25px;
+        display: flex;
+    }
+    .hero {
+        background-image: url("./photos/hero1.png");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;
+        width: 768;
+        justify-content: center;
+    }
+    .container-tabs img {
+        position: relative;
+        height: 200px;
+        width: auto;
+        background-color: #cc6600;
+        display: flex;
+        justify-content: center;
+    }
+    .col {
+        position: relative;
+        transition: 1s ease;
+        background-color: #cc6600;
+    }
+    .cocktails-link {
+        position: absolute;
+        top: 10%;
+        left: 48%;
+        font-family: festive;
+        color: white;
+        transform: translate(-50%, -50%);
+        font-size: 45px;
+        transition: 1s ease;
+        text-align: center;
+        width: 100%;
+    }
+    .cocktails-link:hover {
+        font-size: 60px;
+    }
+    .music-link {
+        position: absolute;
+        top: 10%;
+        left: 48%;
+        font-family: festive;
+        color: white;
+        transform: translate(-50%, -50%);
+        font-size: 45px;
+        transition: 1s ease;
+        text-align: center;
+        width: 100%;
+    }
+    .music-link:hover {
+        font-size: 60px;
+    }
+    .food-link {
+        position: absolute;
+        top: 10%;
+        left: 48%;
+        font-family: festive;
+        color: white;
+        transform: translate(-50%, -50%);
+        font-size: 40px;
+        transition: 1s ease;
+        text-align: center;
+        width: 100%;
+    }
+    .food-link:hover {
+        font-size: 60px;
+    }
+    .location-section {
+        text-align: center;
+        height: 800px;
+        background-color: #666;
+        padding-top: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .location-title {
+        font-family: Amatic SC;
+        font-size: 65px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #cc6600;
+    }
+    /*------------------------ API (Google Maps courtesy of google API's) -----------*/
+    .section {
+        background-color: #666;
+        display: grid;
+        grid-template-columns: 1fr;
+        color: white;
+        height: auto;
+        width: auto;
+        text-align: center;
+    }
+    #myDIV {
+        display: none;
+        width: 100%;
+        height: 320px;
+        font-family: Amatic SC;
+        font-size: 25px;
+        text-align: center;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #cc6600;
+    }
+    .map-section {
+        position: relative;
+    }
+    #map {
+        position: relative;
+        width: 100vw;
+    }
+    /*-------------------- This is the section which shows the location and opening times -------------*/
+    #opening-times {
+        border-style: solid;
+        border-width: 1px;
+        border-color: #cc6600;
+        width: 1fr;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+    }
+    button {
+        width: 140px;
+        height: 45px;
+    }
+    footer {
+        padding-top: 25px;
+        letter-spacing: 2px;
+        text-align: center;
+        position: relative;
+        width: 100%;
+        background-color: #cc6600;
+        align-items: center;
+        top: 1000px;
+    }
+    .social-links {
+        padding-top: 35px;
+        padding-bottom: 35px;
+        text-align: center;
+        top: 300px;
+        border-style: double;
+    }
 }
