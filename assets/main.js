@@ -10,6 +10,7 @@ function initMap() {
 }
 
 /** ---- onclick button function script for show and hide of Opening times text on the index page-----*/
+
 function initializeOpeningTimes() {
     var x = document.getElementById("myDIV");
     if (x.style.display == "block") {
@@ -23,23 +24,28 @@ function initializeOpeningTimes() {
  * This code was part of the EmailJS code which required registration and the inclusion of an ID Key within the script code
  */
 
-const btn = document.getElementById('button');
+const btn = document.getElementById('button')
 
 document.getElementById('form')
-    .addEventListener('submit', function(event) {
-        event.preventDefault();
 
-        btn.value = 'Sending...';
+.addEventListener('submit', function(event) {
+    event.preventDefault();
 
-        const serviceID = 'default_service';
-        const templateID = 'template_bve9m98';
 
-        emailjs.sendForm(serviceID, templateID, this)
-            .then(() => {
-                btn.value = 'Send Email';
-                alert('Sent!');
-            }, (err) => {
-                btn.value = 'Send Email';
-                alert(JSON.stringify(err));
-            });
-    });
+
+    btn.value = 'Sending...';
+
+
+    const serviceID = 'Gmail';
+    const templateID = 'template_bve9m98';
+
+    emailjs.sendForm(serviceID, templateID, this)
+        .then(() => {
+            btn.value = 'Send Email';
+            alert('Your Email has been sent!');
+
+        }, (err) => {
+            btn.value = 'Send Email';
+            alert(JSON.stringify(err));
+        });
+});
