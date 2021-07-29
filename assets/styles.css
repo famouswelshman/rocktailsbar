@@ -68,7 +68,7 @@ p {
 }
 
 .hero {
-    background-image: url("./photos/hero1.png");
+    background-image: url("./photos/hero1.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -78,7 +78,7 @@ p {
 }
 
 .hero-music {
-    background-image: url("./photos/music_hero.png");
+    background-image: url("./photos/music_hero.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -87,7 +87,7 @@ p {
 }
 
 .hero-food {
-    background-image: url("./photos/burger_hero.png");
+    background-image: url("./photos/burger_hero.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -97,7 +97,7 @@ p {
 }
 
 .hero-contact {
-    background-image: url("./photos/contact_hero.png");
+    background-image: url("./photos/contact_hero.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -137,7 +137,7 @@ a:hover {
 
 .cocktails-link {
     position: absolute;
-    top: 10%;
+    top: 15%;
     left: 50%;
     font-family: festive;
     color: white;
@@ -154,7 +154,7 @@ a:hover {
 
 .music-link {
     position: absolute;
-    top: 10%;
+    top: 16%;
     left: 50%;
     font-family: festive;
     color: white;
@@ -171,7 +171,7 @@ a:hover {
 
 .food-link {
     position: absolute;
-    top: 10%;
+    top: 16%;
     left: 50%;
     font-family: festive;
     color: white;

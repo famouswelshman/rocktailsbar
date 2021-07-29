@@ -123,6 +123,9 @@ Making this website responsive was a challenge. I ran the website using VS Code 
 
 
 4. Loading speeds
+I had to ensure that the website would load fairly quickly which was a challenge given the inclusion of Javascript which was added according to the DOM to run following the HTML. Since the Google Map API is hosted via a API server supplier the function loaded reasonably quick upon opening the index page. 
+
+My greatest challenge was to ensure that the images and background images would be reasonably quick at loading. Through testing with various picture formats it seemed that the lower the resolution the file, the quicker it would load therefore not to compromise on quality I saved the final images to the JPEG format which was around 80% less in file size compared to PNG which is what I had originally used.
 
 5. 
 
