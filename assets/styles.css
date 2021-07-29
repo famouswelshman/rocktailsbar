@@ -78,16 +78,16 @@ p {
 }
 
 .hero-music {
-    background-image: url("./photos/nick-moore-5zWN8DTNeVA-unsplash.jpg");
+    background-image: url("./photos/music_hero.png");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 900px;
+    height: 400%;
     width: 100%;
 }
 
 .hero-food {
-    background-image: url("./photos/Burger_background.jpg");
+    background-image: url("./photos/burger_hero.png");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -97,7 +97,7 @@ p {
 }
 
 .hero-contact {
-    background-image: url("./photos/louis-hansel-dNgwsE2HRJw-unsplash.jpg");
+    background-image: url("./photos/contact_hero.png");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -284,6 +284,14 @@ a:hover {
 
 a:active {
     color: blue;
+}
+
+#music-blog {
+    font-family: Amatic SC;
+    font-size: 34px;
+    justify-content: center;
+    padding: 100px;
+    color: white;
 }
 
 
