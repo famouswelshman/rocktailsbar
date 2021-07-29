@@ -106,6 +106,11 @@ p {
     width: 100%;
 }
 
+.tapas {
+    width: 100%;
+    height: auto;
+}
+
 .menus {
     width: 100%;
     position: relative;
@@ -371,7 +376,7 @@ input[type=submit]:hover {
         font-size: 55px;
     }
     .hero {
-        background-image: url("./photos/hero1.png");
+        background-image: url("./photos/hero1.jpg");
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
@@ -517,13 +522,43 @@ input[type=submit]:hover {
         font-size: 45px;
     }
     .hero {
-        background-image: url("./photos/hero1.png");
+        background-image: url("./photos/hero1.jpg");
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         height: 500px;
         width: 100%;
+    }
+    .hero-music {
+        background-image: url("./photos/music_hero.jpg");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400%;
+        width: 100%;
+    }
+    .hero-food {
+        background-image: url("./photos/burger_hero.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+        width: 100%;
+    }
+    .hero-contact {
+        background-image: url("./photos/contact_hero.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        width: 100%;
+    }
+    .tapas {
+        width: 100%;
+        height: auto;
     }
     .container-tabs {
         width: 100%;
@@ -543,7 +578,19 @@ input[type=submit]:hover {
     }
     .cocktails-link {
         position: absolute;
-        top: 10%;
+        top: 15%;
+        left: 50%;
+        font-family: festive;
+        color: white;
+        transform: translate(-50%, -50%);
+        font-size: 45px;
+        transition: 1s ease;
+        text-align: center;
+        width: 70%;
+    }
+    .music-link {
+        position: absolute;
+        top: 15%;
         left: 50%;
         font-family: festive;
         color: white;
@@ -553,29 +600,21 @@ input[type=submit]:hover {
         text-align: center;
         width: 70%;
     }
-    .music-link {
-        position: absolute;
-        top: 10%;
-        left: 50%;
-        font-family: festive;
-        color: white;
-        transform: translate(-50%, -50%);
-        font-size: 30px;
-        transition: 1s ease;
-        text-align: center;
-        width: 70%;
-    }
     .food-link {
         position: absolute;
-        top: 10%;
+        top: 15%;
         left: 50%;
         font-family: festive;
         color: white;
         transform: translate(-50%, -50%);
-        font-size: 35px;
+        font-size: 45px;
         transition: 1s ease;
         text-align: center;
         width: 85%;
+    }
+    .menus {
+        height: 20px;
+        width: auto;
     }
     .location-section {
         text-align: center;
@@ -668,13 +707,17 @@ input[type=submit]:hover {
         display: flex;
     }
     .hero {
-        background-image: url("./photos/hero1.png");
+        background-image: url("./photos/hero1.jpg");
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         height: 400px;
-        width: 768;
+        width: 100%;
+    }
+    .tapas {
+        width: 100%;
+        height: auto;
     }
     .container-tabs img {
         position: relative;
@@ -707,7 +750,7 @@ input[type=submit]:hover {
     .music-link {
         font-size: 50px;
         position: absolute;
-        top: 10%;
+        top: 1s0%;
         left: 45%;
         font-family: festive;
         color: white;
@@ -809,7 +852,7 @@ input[type=submit]:hover {
         display: flex;
     }
     .hero {
-        background-image: url("./photos/hero1.png");
+        background-image: url("./photos/hero1.jpg");
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
@@ -966,7 +1009,7 @@ input[type=submit]:hover {
         display: flex;
     }
     .hero {
-        background-image: url("./photos/hero1.png");
+        background-image: url("./photos/hero1.jpg");
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
