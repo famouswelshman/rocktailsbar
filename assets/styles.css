@@ -734,12 +734,12 @@ input[type=submit]:hover {
     }
     .cocktails-link {
         position: absolute;
-        top: 10%;
-        left: 45%;
+        top: 15%;
+        left: 50%;
         font-family: festive;
         color: white;
         transform: translate(-50%, -50%);
-        font-size: 50px;
+        font-size: 55px;
         transition: 1s ease;
         text-align: center;
         width: 100%;
@@ -750,8 +750,8 @@ input[type=submit]:hover {
     .music-link {
         font-size: 50px;
         position: absolute;
-        top: 1s0%;
-        left: 45%;
+        top: 15%;
+        left: 50%;
         font-family: festive;
         color: white;
         transform: translate(-50%, -50%);
@@ -764,8 +764,8 @@ input[type=submit]:hover {
     }
     .food-link {
         position: absolute;
-        top: 10%;
-        left: 45%;
+        top: 15%;
+        left: 50%;
         font-family: festive;
         color: white;
         transform: translate(-50%, -50%);
@@ -801,7 +801,6 @@ input[type=submit]:hover {
         height: auto;
         width: auto;
         text-align: center;
-        border-style: dashed;
     }
     #myDIV {
         display: none;
@@ -1033,12 +1032,12 @@ input[type=submit]:hover {
     }
     .cocktails-link {
         position: absolute;
-        top: 10%;
+        top: 15%;
         left: 48%;
         font-family: festive;
         color: white;
         transform: translate(-50%, -50%);
-        font-size: 45px;
+        font-size: 35px;
         transition: 1s ease;
         text-align: center;
         width: 100%;
@@ -1048,12 +1047,12 @@ input[type=submit]:hover {
     }
     .music-link {
         position: absolute;
-        top: 10%;
+        top: 15%;
         left: 48%;
         font-family: festive;
         color: white;
         transform: translate(-50%, -50%);
-        font-size: 45px;
+        font-size: 35px;
         transition: 1s ease;
         text-align: center;
         width: 100%;
@@ -1063,12 +1062,12 @@ input[type=submit]:hover {
     }
     .food-link {
         position: absolute;
-        top: 10%;
+        top: 15%;
         left: 48%;
         font-family: festive;
         color: white;
         transform: translate(-50%, -50%);
-        font-size: 40px;
+        font-size: 35px;
         transition: 1s ease;
         text-align: center;
         width: 100%;
