@@ -326,6 +326,9 @@ footer {
 
 /* ------------------------- Contact Form Styling -----------------------------------*/
 
+
+/* This contact form Javascript was supplied by EmailJS and edited to suit it's need on this website*/
+
 input[type=text],
 select,
 textarea {
@@ -381,7 +384,33 @@ input[type=submit]:hover {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 5 00px;
+        height: 500px;
+        width: 100%;
+    }
+    .hero-music {
+        background-image: url("./photos/music_hero.jpg");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400%;
+        width: 100%;
+    }
+    .hero-food {
+        background-image: url("./photos/burger_hero.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        width: auto;
+    }
+    .hero-contact {
+        background-image: url("./photos/contact_hero.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
         width: 100%;
     }
     .container-tabs {
@@ -402,7 +431,7 @@ input[type=submit]:hover {
     }
     .cocktails-link {
         position: absolute;
-        top: 10%;
+        top: 15%;
         left: 50%;
         font-family: festive;
         color: white;
@@ -414,7 +443,7 @@ input[type=submit]:hover {
     }
     .music-link {
         position: absolute;
-        top: 10%;
+        top: 15%;
         left: 50%;
         font-family: festive;
         color: white;
@@ -426,7 +455,7 @@ input[type=submit]:hover {
     }
     .food-link {
         position: absolute;
-        top: 10%;
+        top: 15%;
         left: 50%;
         font-family: festive;
         color: white;
@@ -451,6 +480,9 @@ input[type=submit]:hover {
         border-width: 1px;
         border-style: solid;
         border-color: #cc6600;
+    }
+    .tapas {
+        width: 100%;
     }
     /*------------------------ API (Google Maps courtesy of google API's) -----------*/
     .section {
@@ -497,8 +529,8 @@ input[type=submit]:hover {
         padding-top: 25px;
         letter-spacing: 2px;
         text-align: center;
-        position: relative;
-        width: 100%;
+        position: absolute;
+        width: auto;
         background-color: #cc6600;
         align-items: center;
     }
@@ -515,6 +547,9 @@ input[type=submit]:hover {
 /*----------------------- Tablet Size -------------------------------------------------*/
 
 @media only screen and (max-width: 768px) {
+    marquee {
+        display: none;
+    }
     .title {
         font-size: 100px;
     }
@@ -695,9 +730,10 @@ input[type=submit]:hover {
 /*----------------------------- Mobile Large Size ------------------------------------------*/
 
 @media only screen and (max-width: 425px) {
-    body {
-        width: 100%;
+    marquee {
+        display: none;
     }
+    body {}
     .title {
         font-size: 75px;
         justify-content: center;
@@ -715,6 +751,32 @@ input[type=submit]:hover {
         height: 400px;
         width: 100%;
     }
+    .hero-music {
+        background-image: url("./photos/music_hero.jpg");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500%;
+        width: 100%;
+    }
+    .hero-food {
+        background-image: url("./photos/burger_hero.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        width: 100%;
+    }
+    .hero-contact {
+        background-image: url("./photos/contact_hero.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        width: 100%;
+    }
     .tapas {
         width: 100%;
         height: auto;
@@ -722,7 +784,7 @@ input[type=submit]:hover {
     .container-tabs img {
         position: relative;
         height: 400px;
-        width: 100vw;
+        width: auto;
         background-color: #cc6600;
         display: flex;
         justify-content: center;
@@ -839,6 +901,9 @@ input[type=submit]:hover {
 /*-------------------------- Mobile Medium Size ---------------------------------------*/
 
 @media only screen and (max-width: 375px) {
+    marquee {
+        display: none;
+    }
     body {
         width: 478px;
     }
@@ -862,7 +927,7 @@ input[type=submit]:hover {
     .container-tabs img {
         position: relative;
         height: 400px;
-        width: 100vw;
+        width: auto;
         background-color: #cc6600;
         display: flex;
         justify-content: center;
@@ -996,6 +1061,9 @@ input[type=submit]:hover {
 /*---------------------------- Mobile Small Size ----------------------------------------*/
 
 @media only screen and (max-width: 320px) {
+    marquee {
+        display: none;
+    }
     body {
         width: 100%;
     }
