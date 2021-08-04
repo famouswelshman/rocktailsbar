@@ -479,6 +479,12 @@ input[type=submit]:hover {
     .tapas {
         width: 100%;
     }
+    .menus {
+        padding-top: 10px;
+    }
+    .menus img {
+        padding-bottom: 40px;
+    }
     /*------------------------ API (Google Maps courtesy of google API's) -----------*/
     .section {
         background-color: #666;
@@ -521,7 +527,7 @@ input[type=submit]:hover {
         height: 45px;
     }
     footer {
-        padding-top: 25px;
+        padding-top: 10px;
         letter-spacing: 2px;
         text-align: center;
         width: 100%;
@@ -725,12 +731,12 @@ input[type=submit]:hover {
         display: none;
     }
     .title {
-        font-size: 75px;
-        justify-content: center;
+        font-size: 55px;
+        text-align: center;
     }
     .subtitle {
         font-size: 35px;
-        display: flex;
+        text-align: center;
     }
     .hero {
         background-image: url("./photos/hero1.jpg");
@@ -750,12 +756,12 @@ input[type=submit]:hover {
         width: 100%;
     }
     .hero-food {
-        background-image: url("./photos/burger_hero.jpg");
+        background-image: url("./photos/burger_hero_sml.jpg");
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 500px;
+        height: 300px;
         width: 100%;
     }
     .hero-contact {
@@ -764,12 +770,16 @@ input[type=submit]:hover {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 500px;
+        height: 300px;
         width: 100%;
     }
     .tapas {
         width: 100%;
         height: auto;
+    }
+    .menus img {
+        width: 100%;
+        padding-top: 5px;
     }
     .container-tabs img {
         position: relative;
@@ -831,11 +841,7 @@ input[type=submit]:hover {
     }
     .location-section {
         text-align: center;
-        height: 800px;
         background-color: #666;
-        padding-top: 80px;
-        padding-left: 50px;
-        padding-right: 50px;
     }
     .location-title {
         font-family: Amatic SC;
@@ -850,7 +856,6 @@ input[type=submit]:hover {
         display: grid;
         grid-template-columns: 1fr;
         color: white;
-        height: auto;
         width: auto;
         text-align: center;
     }
@@ -871,6 +876,7 @@ input[type=submit]:hover {
     #map {
         position: relative;
         width: 100vw;
+        height: 300px;
     }
     /*-------------------- This is the section which shows the location and opening times -------------*/
     #opening-times {
@@ -913,6 +919,27 @@ input[type=submit]:hover {
         background-size: cover;
         height: 400px;
         width: 768;
+    }
+    .hero-music {
+        background-image: url("./photos/music_hero.jpg");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500%;
+        width: 100%;
+    }
+    .hero-food {
+        background-image: url("./photos/burger_hero_sml.jpg");
+        background-size: cover;
+    }
+    .hero-contact {
+        background-image: url("./photos/contact_hero.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;
+        width: 100%;
     }
     .container-tabs img {
         position: relative;
@@ -1074,6 +1101,32 @@ input[type=submit]:hover {
         height: 300px;
         width: 768;
         justify-content: center;
+    }
+    .hero-music {
+        background-image: url("./photos/music_hero.jpg");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500%;
+        width: 100%;
+    }
+    .hero-food {
+        background-image: url("./photos/burger_hero_sml.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;
+        width: 100%;
+    }
+    .hero-contact {
+        background-image: url("./photos/contact_hero.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;
+        width: 100%;
     }
     .container-tabs img {
         position: relative;
