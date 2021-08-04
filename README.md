@@ -85,12 +85,13 @@ I researched websites online so that I could narrow down my use of colours for t
 
 
 ## 2. Live Music Page
-![Index Page Design](https://github.com/famouswelshman/rocktailsbar/blob/main/wireframes/music.png "Live music wireframe")
+![Live Page Design](https://github.com/famouswelshman/rocktailsbar/blob/main/wireframes/music.png "Live music wireframe")
 
 ## 3. Food Page
+![Food Page Design](https://github.com/famouswelshman/rocktailsbar/blob/main/wireframes/food.png "food menus wireframe")
 
 ## 4. Contact Form Page
-
+![Contact Page Design](https://github.com/famouswelshman/rocktailsbar/blob/main/wireframes/contact.png "contact form wireframe")
 
 # VALIDATION OF CODE
 1. Code Validation (W3C Markup Validation Service)
