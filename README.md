@@ -84,11 +84,12 @@ I researched websites online so that I could narrow down my use of colours for t
 ![Index Page Design](https://github.com/famouswelshman/rocktailsbar/blob/main/wireframes/index%20page.png "Index Page Wireframe")
 
 
-## 2. About Page
+## 2. Live Music Page
+![Index Page Design](https://github.com/famouswelshman/rocktailsbar/blob/main/wireframes/livemusicpage.png "Live music wireframe")
 
-## 3. Media Page
+## 3. Food Page
 
-## 4. Contact Page
+## 4. Contact Form Page
 
 
 # VALIDATION OF CODE
