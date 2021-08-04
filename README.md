@@ -64,17 +64,18 @@ The use of the 'Black Ops One' font for the main title (Rocktails) was inspired 
 # Google Font 1 (Black Ops One)
 Black Ops One for the big titles. The pattern of the cracked letters was attributed to the genre of music being rock hosted at the venue and a little nod to the mish mash of paving out in the garden area.
 
-# Google Font 2 ()
+# Google Font 2 (Festive)
 Festive - Gives a theme to the font that connects people to the theme of the bar which is cocktails.
 
 
-# Google Font 3 ()
+# Google Font 3 (Amatic SC)
 Amatic SC - I picked this as a nice subtle font for the use in displaying the location details (bottom left) of the webpage. This font is free flowing and quite subtle and pleasing which is perfect for illustrating the location of the venue and showing opening times etc.
 
 
-# WIREFRAMES (Balsamic)
-I created a mock-up of the website using three visual layouts to cover the responsive nature of the website. 
-Balsamic was a real help in enabling me to visualize my web content across each display platform. I did start with the desktop layout rather than start with a handheld layout and this was down to my personal choice! It seems easier to me to create the whole layout and then consolidate this to smaller resolution peripherals so that I could see the whole website idea in front of me first.
+# Milestone 2 Project --- WIREFRAMES ---- Using Balsamic
+I created a mock-up of the website using three visual layouts to cover the responsive nature of the website. Standard desktop and Laptop layout was used for larger resolution based screens, standard tablet template and mobiel handset template were used for the smaller resolution screen items.
+
+Balsamic was a real help in enabling me to visualize my web content across each display platform. I started design of the website by focusing on the desktop layout rather than start with a smaller resolution handheld layout and this was down to my personal choice! It seems easier to me to create the whole layout on a larger screen and and then consolidate the content to smaller resolution peripherals. Doing it this way meant I could see the whole website idea in front of me in full and it was important to see how the Javascript based functions responded to load times and functioned upon load up.
 
 I researched websites online so that I could narrow down my use of colours for the design and since my focus was to create an ambient, chilled and artistic vibe I opeted for the subtle use of tungsten which is similar to the lighting at the venue. My vision for this website although fictitious was to give the user an idea and feel for a place just from viewing the website. Returning users would have some affiliation to this colour scheme since the venue would reflect the same colour scheme.
 
