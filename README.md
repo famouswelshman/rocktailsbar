@@ -81,13 +81,15 @@ I researched websites online so that I could narrow down my use of colours for t
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 1. Index Page
-![Index Page Design](https://famouswelshman.github.io/thenewbypassers/Wireframes/Index-Page.png "Index page Wireframe")
+![Index Page Design](https://github.com/famouswelshman/rocktailsbar/blob/main/wireframes/index%20page.png "Index Page Wireframe")
+
+
 ## 2. About Page
-![About Page Design](https://famouswelshman.github.io/thenewbypassers/Wireframes/About-Page.png "About page Wireframe")
+
 ## 3. Media Page
-![Media Page Design](https://famouswelshman.github.io/thenewbypassers/Wireframes/Media-Page.png "Media page Wireframe")
+
 ## 4. Contact Page
-![Contact Page Design](https://famouswelshman.github.io/thenewbypassers/Wireframes/Contact-Page.png "Contact page Wireframe")
+
 
 # VALIDATION OF CODE
 1. Code Validation (W3C Markup Validation Service)
@@ -157,6 +159,7 @@ Photo by Miha Rekar on Unsplash
 Photo by Lidye on Unsplash
 Photo by Edgar Castrejon on Unsplash
 Photo by Carissa Gan on Unsplash
+Photo by Magnus Lunay on Unsplash
   
 The Tapas Menu template is credited to - https://www.angelosristorante.co.uk for use of it's layout.
 The Cocktails Menu template is credited to - https://theitalianglossop.co.uk for use of it's layout.
