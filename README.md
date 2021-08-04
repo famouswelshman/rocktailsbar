@@ -85,7 +85,7 @@ I researched websites online so that I could narrow down my use of colours for t
 
 
 ## 2. Live Music Page
-![Index Page Design](https://github.com/famouswelshman/rocktailsbar/blob/main/wireframes/livemusicpage.png "Live music wireframe")
+![Index Page Design](https://github.com/famouswelshman/rocktailsbar/blob/main/wireframes/live%music%page.png "Live music wireframe")
 
 ## 3. Food Page
 
