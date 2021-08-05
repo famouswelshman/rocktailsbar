@@ -56,11 +56,21 @@ Contact via contact link in the navbar would scroll to the bottom of the page to
 
 # WEBSITE FEATURES 
 1. Responsive Navbar (Bootstrap)
-2. Google Maps API 
-3. Opening Times button written via Javascript 'onClick'.
-4. Popup Food menu.
-5. Social Media Links
+Bootstrap have a library of pre-built navbars which are suited to website building making it easy and profesional for use in your project. I chose to use the navbar light which is of a light colour to compliment my colour theme and reverts to a dropdown when the media size is reduced enabling user to easily navigate the website on smaller devices.
 
+2. Google Maps API 
+The API used in this website is the 'Google Maps' API. It's purpose for the website is to show with visual ease the exact location of the venue. The additional function of this API is that it is interactive and allows the user to zoom in and zoom out giving further depth to the viewing of the map. The map is most beneficial to the user when finding the venue location in respect of their current location which might be close to the venue but they require more accurate detail. 
+
+3. Opening Times button written via Javascript 'onClick'.
+The opening times can be found at the bottom of the home page. There is a Javascript function in place that upon click, reveals additional information about the opening hours. This feature is of benefit to smaller devices where the function allows the reveal and hide of this information allowing room for more content on the handset. This function also demonstrated the use of Javascript which is for the purpose of this Milestone.
+
+
+4. Popup Food menu.
+The two menus being used on the website show as jpeg images but where the user is prompted to click on these, they would open in a pdf format independant of the website allowing the user to view this content in more detail and at the same time, not be taken away from the website.
+
+
+5. Contact Form
+The contact form code is a product of a website called EmailJS. They provide the code for a email based service function which allows captured data to be sent to a commercial or personal email address. This feature allows the user to complete several basic text based fields which was created by myself and a button to send the information to the email address registered with EmailJS.
 
 
 # WEBSITE STANDARD/ EXISITING FEATURES
@@ -70,6 +80,10 @@ The website features a basic interactive navbar to navigate the site with ease. 
 
 ### - __Footer and Social Media Links__
 The footer for the website is consistent across all pages and gives the user acces to click on a social media links that open externally.
+
+### - __Responsive across multiple media__
+The website was constructed and tested to accomodate a cross platform of media sizes. The enabling of responsivity was based on media queries added to the main CSS file. The importance here is that the content and it's funcionality is consistent across most or all media, making it easy for the user to navigate and view the content with ease.
+
 
 # FUTURE FEATURES
 The future aim of the site is to attract new customers to a trendy, live music venue whilst they are on holiday and near the venue. Similar to brands such as Pacha and SPACE, the aim of the website was to also sell merchandise and offer access to events. Build upon the brand of 'Cocktails' and market it as 'the top live music venue in Ibiza'!
