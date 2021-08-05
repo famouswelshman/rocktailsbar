@@ -32,12 +32,11 @@ If you visit the website looking for information on the live music which takes p
 
 # User story 3
 ![User story 2](https://github.com/famouswelshman/rocktailsbar/blob/main/wireframes/user_story_3.jpg "User story 2")
-
-
-
+User visiting the website looking for food and drinks information will easily find a link on the home page which directs user to a nice glossy bakground shot and some foody images and the availability of the menus below which conveniently open as seperate pdf documents independant of the website. The menus are bright and offer a wealth of detail for the potential customer looking to either visit the venue, make enquiries or book to eat there.
 
 # User story 4
 ![User story 2](https://github.com/famouswelshman/rocktailsbar/blob/main/wireframes/user_story_4.jpg "User story 2")
+If the user has successfully navigated the website and found what they were looking for and wanted to make an enquiry, they can find a link in either the navbar or the footer to link them to a dedicated contact form page. This page uses the Javascript function to enable the customer to add their details and any message which is easily sent by a button click. The enquiry is also followed up with confirmation of their email by sending a message to their preferred inbox as stated in the contact form at they time they completed this.
 
 
 # WEBSITE UX
