@@ -5,7 +5,7 @@ Milestone 2 Project - Rocktails Bar in Ibiza
 
 ### Github Link: https://github.com/famouswelshman/rocktailsbar.git
 
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Website is hosted at : https://famouswelshman.github.io/rocktailsbar/
 
 # PURPOSE OF THE PROJECT
@@ -64,10 +64,8 @@ The API used in this website is the 'Google Maps' API. It's purpose for the webs
 3. Opening Times button written via Javascript 'onClick'.
 The opening times can be found at the bottom of the home page. There is a Javascript function in place that upon click, reveals additional information about the opening hours. This feature is of benefit to smaller devices where the function allows the reveal and hide of this information allowing room for more content on the handset. This function also demonstrated the use of Javascript which is for the purpose of this Milestone.
 
-
 4. Popup Food menu.
 The two menus being used on the website show as jpeg images but where the user is prompted to click on these, they would open in a pdf format independant of the website allowing the user to view this content in more detail and at the same time, not be taken away from the website.
-
 
 5. Contact Form
 The contact form code is a product of a website called EmailJS. They provide the code for a email based service function which allows captured data to be sent to a commercial or personal email address. This feature allows the user to complete several basic text based fields which was created by myself and a button to send the information to the email address registered with EmailJS.
@@ -79,14 +77,14 @@ The contact form code is a product of a website called EmailJS. They provide the
 The website features a basic interactive navbar to navigate the site with ease. This navbar which is a product of the Bootstrap code will be present on all pages and will adapt to each resolution by compressing the navbar options content to a dropdown icon when shown on smaller devices. I kept the navbar style as 'light' so it would not clutter the page.
 
 ### - __Footer and Social Media Links__
-The footer for the website is consistent across all pages and gives the user acces to click on a social media links that open externally.
+The footer for the website is consistent across all pages and gives the user access to click on a social media links that open external to the main website.
 
 ### - __Responsive across multiple media__
 The website was constructed and tested to accomodate a cross platform of media sizes. The enabling of responsivity was based on media queries added to the main CSS file. The importance here is that the content and it's funcionality is consistent across most or all media, making it easy for the user to navigate and view the content with ease.
 
 
 # FUTURE FEATURES
-The future aim of the site is to attract new customers to a trendy, live music venue whilst they are on holiday and near the venue. Similar to brands such as Pacha and SPACE, the aim of the website was to also sell merchandise and offer access to events. Build upon the brand of 'Cocktails' and market it as 'the top live music venue in Ibiza'!
+The future aim of the site is to attract new customers to a trendy, live music venue whilst they are on holiday and near the venue. Similar to brands such as Pacha and SPACE, the aim of the website was to also sell merchandise and offer access to events. Build upon the brand of 'Cocktails' and market it as 'the top live music venue in Ibiza' and compete with similar venues!
 
 # TYPOGRAPHY AND COLOUR SCHEME
 Since the theme of this website is that of a trendy, live music and drinks venue, I opted for some styles that would reflect and enhance the kind of things offered at the bar venue. Cocktails and tapas traditionally have some association with italic style writing which I used primarily for the links to other pages offering drinks, live music and food pages.
@@ -163,10 +161,8 @@ Making this website responsive was a challenge. I ran the website using VS Code 
 4. Loading speeds
 I had to ensure that the website would load fairly quickly which was a challenge given the inclusion of Javascript which was added according to the DOM to run following the HTML. Since the Google Map API is hosted via a API server supplier the function loaded reasonably quick upon opening the index page. 
 
+5. Media Content
 My greatest challenge was to ensure that the images and background images would be reasonably quick at loading. Through testing with various picture formats it seemed that the lower the resolution the file, the quicker it would load therefore not to compromise on quality I saved the final images to the JPEG format which was around 80% less in file size compared to PNG which is what I had originally used.
-
-5. 
-
 
 
 
@@ -200,10 +196,10 @@ Photo by Magnus Lunay on Unsplash
 The Tapas Menu template is credited to - https://www.angelosristorante.co.uk for use of it's layout.
 The Cocktails Menu template is credited to - https://theitalianglossop.co.uk for use of it's layout.
 
-*Please note that the menu for both the cocktails and the Tapas are for illustration purposed only and are not entirely correct according to currency or pricing. They are only for the puropose of the website which is fictitious and not a registered, actively operating business*.
+*Please note that the menu for both the cocktails and the Tapas are for illustration purposes only and are not entirely correct according to currency or pricing. They are only for the puropose of the website which is fictitious and not a registered, actively operating business*.
 
 # TESTING CREDITS 
-
+ju
 
 
 # CODE CREDITS
