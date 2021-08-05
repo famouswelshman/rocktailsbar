@@ -19,7 +19,7 @@ I wanted to create a website that could would almost spoon feed its users what e
 # USER STORIES
 
 # User story 1
-![User story 1](https://github.com/famouswelshman/rocktailsbar/blob/main/wireframes/index%20page.png "User story 1")
+![User story 1](https://github.com/famouswelshman/rocktailsbar/blob/main/wireframes/user_story_1.jpg "User story 1")
 The user will be presented with a home page which displays a nice warm background picture and text. With the navbar floating on the page, this makes it easy for the user to navigate content. 
 Home page shows the main links to all the content making choice easy for the user so for instance if they had visited to find out about the live music, the link is bold and obvious making it easier for the user to steer directly towards the content they are looking for. The home page also focuses on the location of the venue utilising a map which makes it visually more appealing and details of the venue opening times making this content more beneficial to the site visitors since this website is built to promote an actual venue where people would visit.
 
