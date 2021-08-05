@@ -18,13 +18,18 @@ I wanted to create a website that could would almost spoon feed its users what e
 
 # USER STORIES
 
+# User story 1
 ![User story 1](https://github.com/famouswelshman/rocktailsbar/blob/main/wireframes/index%20page.png "User story 1")
 The user will be presented with a home page which displays a nice warm background picture and text. With the navbar floating on the page, this makes it easy for the user to navigate content. 
 Home page shows the main links to all the content making choice easy for the user so for instance if they had visited to find out about the live music, the link is bold and obvious making it easier for the user to steer directly towards the content they are looking for. The home page also focuses on the location of the venue utilising a map which makes it visually more appealing and details of the venue opening times making this content more beneficial to the site visitors since this website is built to promote an actual venue where people would visit.
 
+# User story 2
 ![User story 2](https://github.com/famouswelshman/rocktailsbar/blob/main/wireframes/music.png "User story 2")
 If you visit the website looking for information on the live music which takes place at the venue then the link to live music is bold and easily located. This takes the user to a similar themed page which displays a music themed background picture and shows a short blurb on the history of the venue and the music it hosts. This page would need further development and has been kept basic to simply showcase the page layout for this website. Additional 'Book Now' function might be appropriate for future development which has link to a booking form.
 
+# User story 3
+
+# User story 4
 
 
 
