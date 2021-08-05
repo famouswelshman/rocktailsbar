@@ -3,7 +3,10 @@
 Milestone 2 Project - Rocktails Bar in Ibiza
 
 
-## Github Link: https://github.com/famouswelshman/rocktailsbar.git
+### Github Link: https://github.com/famouswelshman/rocktailsbar.git
+
+
+### Website is hosted at : https://famouswelshman.github.io/rocktailsbar/
 
 # PURPOSE OF THE PROJECT
 
