@@ -900,16 +900,13 @@ input[type=submit]:hover {
     marquee {
         display: none;
     }
-    body {
-        width: 478px;
-    }
     .title {
-        font-size: 75px;
-        justify-content: center;
+        font-size: 55px;
+        text-align: center;
     }
     .subtitle {
         font-size: 35px;
-        display: flex;
+        text-align: center;
     }
     .hero {
         background-image: url("./photos/hero1.jpg");
@@ -918,7 +915,7 @@ input[type=submit]:hover {
         background-repeat: no-repeat;
         background-size: cover;
         height: 400px;
-        width: 768;
+        width: 100%;
     }
     .hero-music {
         background-image: url("./photos/music_hero.jpg");
@@ -930,7 +927,12 @@ input[type=submit]:hover {
     }
     .hero-food {
         background-image: url("./photos/burger_hero_sml.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
         background-size: cover;
+        height: 300px;
+        width: 100%;
     }
     .hero-contact {
         background-image: url("./photos/contact_hero.jpg");
@@ -940,6 +942,14 @@ input[type=submit]:hover {
         background-size: cover;
         height: 300px;
         width: 100%;
+    }
+    .tapas {
+        width: 100%;
+        height: auto;
+    }
+    .menus img {
+        width: 100%;
+        padding-top: 5px;
     }
     .container-tabs img {
         position: relative;
@@ -956,12 +966,12 @@ input[type=submit]:hover {
     }
     .cocktails-link {
         position: absolute;
-        top: 10%;
-        left: 45%;
+        top: 15%;
+        left: 50%;
         font-family: festive;
         color: white;
         transform: translate(-50%, -50%);
-        font-size: 50px;
+        font-size: 55px;
         transition: 1s ease;
         text-align: center;
         width: 100%;
@@ -972,8 +982,8 @@ input[type=submit]:hover {
     .music-link {
         font-size: 50px;
         position: absolute;
-        top: 10%;
-        left: 45%;
+        top: 15%;
+        left: 50%;
         font-family: festive;
         color: white;
         transform: translate(-50%, -50%);
@@ -986,8 +996,8 @@ input[type=submit]:hover {
     }
     .food-link {
         position: absolute;
-        top: 10%;
-        left: 45%;
+        top: 15%;
+        left: 50%;
         font-family: festive;
         color: white;
         transform: translate(-50%, -50%);
@@ -1001,11 +1011,7 @@ input[type=submit]:hover {
     }
     .location-section {
         text-align: center;
-        height: 800px;
         background-color: #666;
-        padding-top: 10px;
-        padding-left: 50px;
-        padding-right: 50px;
     }
     .location-title {
         font-family: Amatic SC;
@@ -1013,7 +1019,6 @@ input[type=submit]:hover {
         border-width: 1px;
         border-style: solid;
         border-color: #cc6600;
-        border-style: dashed;
     }
     /*------------------------ API (Google Maps courtesy of google API's) -----------*/
     .section {
@@ -1021,14 +1026,13 @@ input[type=submit]:hover {
         display: grid;
         grid-template-columns: 1fr;
         color: white;
-        height: 300px;
         width: auto;
         text-align: center;
     }
     #myDIV {
         display: none;
         width: 100%;
-        height: 100px;
+        height: 400px;
         font-family: Amatic SC;
         font-size: 25px;
         text-align: center;
@@ -1042,35 +1046,20 @@ input[type=submit]:hover {
     #map {
         position: relative;
         width: 100vw;
+        height: 300px;
     }
     /*-------------------- This is the section which shows the location and opening times -------------*/
     #opening-times {
         border-style: solid;
         border-width: 1px;
         border-color: #cc6600;
-        width: 1fr;
+        width: 100%;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 15px;
     }
     button {
         width: 140px;
         height: 45px;
-    }
-    footer {
-        padding-top: 25px;
-        letter-spacing: 2px;
-        text-align: center;
-        position: relative;
-        width: 100%;
-        background-color: #cc6600;
-        align-items: center;
-    }
-    .social-links {
-        padding-top: 35px;
-        padding-bottom: 35px;
-        text-align: center;
-        top: 300px;
-        border-style: double;
     }
 }
 
@@ -1081,16 +1070,13 @@ input[type=submit]:hover {
     marquee {
         display: none;
     }
-    body {
-        width: 100%;
-    }
     .title {
         font-size: 55px;
-        justify-content: center;
+        text-align: center;
     }
     .subtitle {
-        font-size: 25px;
-        display: flex;
+        font-size: 35px;
+        text-align: center;
     }
     .hero {
         background-image: url("./photos/hero1.jpg");
@@ -1098,9 +1084,8 @@ input[type=submit]:hover {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 300px;
-        width: 768;
-        justify-content: center;
+        height: 400px;
+        width: 100%;
     }
     .hero-music {
         background-image: url("./photos/music_hero.jpg");
@@ -1128,9 +1113,17 @@ input[type=submit]:hover {
         height: 300px;
         width: 100%;
     }
+    .tapas {
+        width: 100%;
+        height: auto;
+    }
+    .menus img {
+        width: 100%;
+        padding-top: 5px;
+    }
     .container-tabs img {
         position: relative;
-        height: 200px;
+        height: 400px;
         width: auto;
         background-color: #cc6600;
         display: flex;
@@ -1144,11 +1137,11 @@ input[type=submit]:hover {
     .cocktails-link {
         position: absolute;
         top: 15%;
-        left: 48%;
+        left: 50%;
         font-family: festive;
         color: white;
         transform: translate(-50%, -50%);
-        font-size: 35px;
+        font-size: 55px;
         transition: 1s ease;
         text-align: center;
         width: 100%;
@@ -1157,13 +1150,13 @@ input[type=submit]:hover {
         font-size: 60px;
     }
     .music-link {
+        font-size: 50px;
         position: absolute;
         top: 15%;
-        left: 48%;
+        left: 50%;
         font-family: festive;
         color: white;
         transform: translate(-50%, -50%);
-        font-size: 35px;
         transition: 1s ease;
         text-align: center;
         width: 100%;
@@ -1174,11 +1167,11 @@ input[type=submit]:hover {
     .food-link {
         position: absolute;
         top: 15%;
-        left: 48%;
+        left: 50%;
         font-family: festive;
         color: white;
         transform: translate(-50%, -50%);
-        font-size: 35px;
+        font-size: 60px;
         transition: 1s ease;
         text-align: center;
         width: 100%;
@@ -1188,11 +1181,7 @@ input[type=submit]:hover {
     }
     .location-section {
         text-align: center;
-        height: 800px;
         background-color: #666;
-        padding-top: 10px;
-        padding-left: 50px;
-        padding-right: 50px;
     }
     .location-title {
         font-family: Amatic SC;
@@ -1207,14 +1196,13 @@ input[type=submit]:hover {
         display: grid;
         grid-template-columns: 1fr;
         color: white;
-        height: auto;
         width: auto;
         text-align: center;
     }
     #myDIV {
         display: none;
         width: 100%;
-        height: 320px;
+        height: 400px;
         font-family: Amatic SC;
         font-size: 25px;
         text-align: center;
@@ -1228,34 +1216,19 @@ input[type=submit]:hover {
     #map {
         position: relative;
         width: 100vw;
+        height: 300px;
     }
     /*-------------------- This is the section which shows the location and opening times -------------*/
     #opening-times {
         border-style: solid;
         border-width: 1px;
         border-color: #cc6600;
-        width: 1fr;
+        width: 100%;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 15px;
     }
     button {
         width: 140px;
         height: 45px;
-    }
-    footer {
-        padding-top: 25px;
-        letter-spacing: 2px;
-        text-align: center;
-        position: relative;
-        width: 100%;
-        background-color: #cc6600;
-        align-items: center;
-    }
-    .social-links {
-        padding-top: 35px;
-        padding-bottom: 35px;
-        text-align: center;
-        top: 300px;
-        border-style: double;
     }
 }

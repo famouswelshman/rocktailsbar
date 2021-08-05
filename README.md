@@ -73,7 +73,7 @@ The contact form code is a product of a website called EmailJS. They provide the
 
 # WEBSITE STANDARD/ EXISITING FEATURES
 
-#### - __Navigation Bar__
+### - __Navigation Bar__
 The website features a basic interactive navbar to navigate the site with ease. This navbar which is a product of the Bootstrap code will be present on all pages and will adapt to each resolution by compressing the navbar options content to a dropdown icon when shown on smaller devices. I kept the navbar style as 'light' so it would not clutter the page.
 
 ### - __Footer and Social Media Links__
