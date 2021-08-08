@@ -7,8 +7,8 @@ var images = [];
 var time = 3000;
 
 
-images[0] = "./assets/photos/image1.jpg";
-images[1] = './assets/photos/image2.jpg';
+images[0] = './assets/photos/banner1.jpg';
+images[1] = './assets/photos/banner2.jpg';
 images[2] = './assets/photos/image3.jpg';
 
 
