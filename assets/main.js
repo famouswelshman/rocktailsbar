@@ -44,15 +44,15 @@ document.getElementById('form')
                 alert(JSON.stringify(err));
             });
     });
-/** The code below is for the rotation of images on the Music.html page - images rotate on timer */
 
 var i = 0;
 var images = [];
 var time = 3000;
 
 
-images[0] = './assets/photos/banner.jpg';
-images[1] = './assets/photos/banner2.jpg';
+images[0] = "http://lorempixel.com/400/200/animals";
+images[1] = 'image2.jpg';
+images[2] = 'image3.jpg';
 
 
 function changeImg() {
