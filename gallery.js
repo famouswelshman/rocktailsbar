@@ -1,5 +1,5 @@
 /** ---- This is a basic image gallery rotating function which changes the images every 3 seconds -----
- * This Javascript code was inspired by basic Javascript functions and edited to suit this website 
+ * This Javascript code was inspired by basic Javascript functions and edited by myself to suit this website 
  */
 
 var i = 0;

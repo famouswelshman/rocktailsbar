@@ -156,7 +156,7 @@ When the website was loaded in GitHub I realised that the Javascript written was
 Making this website responsive was a challenge. I ran the website using VS Code live server to reflect any changes and my biggest challenge was making the whole thing responsive for multiple screens. The google map API was coded inside of a section div and the purpose of this was to collapse the div when it reached a smaller resolution allowing the opening times section to be stacked above the Google Map display. I adjusted the size for both divs since they sat side by side but without success. 
 
 3. Javascript Code execution
-
+The Javascript script tags were included in the html pages at the bottom of each page in order for the code to execute upon the load of the html. Based on the simplification of the code included I decided that for load times it would be better to include the script links at the bottom of the page and within the <body> tags.
 
 4. Loading speeds
 I had to ensure that the website would load fairly quickly which was a challenge given the inclusion of Javascript which was added according to the DOM to run following the HTML. Since the Google Map API is hosted via a API server supplier the function loaded reasonably quick upon opening the index page. 
@@ -164,7 +164,11 @@ I had to ensure that the website would load fairly quickly which was a challenge
 5. Media Content
 My greatest challenge was to ensure that the images and background images would be reasonably quick at loading. Through testing with various picture formats it seemed that the lower the resolution the file, the quicker it would load therefore not to compromise on quality I saved the final images to the JPEG format which was around 80% less in file size compared to PNG which is what I had originally used.
 
+6. Contact form fields content required. In order for the form to be succesfully completed with the correct date, I had to ensure that the code tag (required) was added to each field. This way, any field which was due completion of data sent a visual prompt to the user if the field was not completed before the submition of the form upon clicking the button.
 
+7. Javascript image animation. This simple code was used in order to have a timed change of images. More specifically for the banner which is within the html code on the Live music page. This simple rotation enabled the timed change between two images therefore presenting an animation on the page between images. 
+
+8. 
 
 # MEDIA CREDITS
 1. Unsplash.com - Royalty free use of photography from various contributors.
@@ -193,14 +197,15 @@ Photo by Edgar Castrejon on Unsplash
 Photo by Carissa Gan on Unsplash
 Photo by Magnus Lunay on Unsplash
 Photo (Live Music Banner) credited to Prestwich Cricket , Tennis & Bowling club
-  
+Photo (Argention BBQ) credited to www.soljans.co.nz
+
 The Tapas Menu template is credited to - https://www.angelosristorante.co.uk for use of it's layout.
 The Cocktails Menu template is credited to - https://theitalianglossop.co.uk for use of it's layout.
 
-*Please note that the menu for both the cocktails and the Tapas are for illustration purposes only and are not entirely correct according to currency or pricing. They are only for the puropose of the website which is fictitious and not a registered, actively operating business*.
+*Please note that the menus for both the cocktails and the Tapas are for illustration purposes only and are not entirely correct according to currency or pricing. They are only for the puropose of the website which is fictitious and not a registered, actively operating business*. The animated banner is also created for the purpose of this project.
 
 # TESTING CREDITS 
-ju
+
 
 
 # CODE CREDITS
