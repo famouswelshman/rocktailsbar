@@ -120,6 +120,7 @@ p {
 
 .gallery {
     text-align: center;
+    position: relative;
 }
 
 .container-tabs img {
@@ -294,7 +295,7 @@ a:active {
     font-family: Amatic SC;
     font-size: 34px;
     justify-content: center;
-    padding: 100px;
+    padding: 50px;
     color: white;
 }
 
@@ -1023,6 +1024,13 @@ input[type=submit]:hover {
         border-width: 1px;
         border-style: solid;
         border-color: #cc6600;
+    }
+    #music-blog {
+        font-family: Amatic SC;
+        font-size: 22px;
+        justify-content: center;
+        padding: 50px;
+        color: white;
     }
     /*------------------------ API (Google Maps courtesy of google API's) -----------*/
     .section {
