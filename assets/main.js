@@ -44,7 +44,7 @@ document.getElementById('form')
                 alert(JSON.stringify(err));
             });
     });
-/** The code below is for the rotation of images on the Music.html page */
+/** The code below is for the rotation of images on the Music.html page - images rotate on timer */
 
 var i = 0;
 var images = [];
