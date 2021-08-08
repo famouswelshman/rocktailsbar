@@ -127,15 +127,15 @@ My vision for the design of this site was to keep each page consistent with a ba
 
 # VALIDATION OF CODE
 1. Code Validation (W3C Markup Validation Service)
-
+HTML Code checked.
+Errors remain - Id tag for the animated slide gallery but this tag is for the link to Javascript.
+Error on contact form page due to input type but the others pass through this with no problem and after doing some research online, shows that this might be a bug within the validator.
 
 2. css validation (W3C CSS validator)
-
+All CSS content checked and no errors found.
 
 3. Javascript validation (Jshint)
-
-
-4. Supported screens 
+Some warnings but no errors
 
 
 # DEPLOYMENT
@@ -150,6 +150,8 @@ Each application would require a dedicated key in order for the API to work corr
 
 1. Bugs
 When the website was loaded in GitHub I realised that the Javascript written was not functioning within the website. The reason for this was that the path file for the external JS file was entered into the index page as absolute and not relative causing the Javascript not to load. This was a clear error on my part and was quickly realised. It seemed that the link to the CSS file was correct (relative) and therefore worked correctly.
+
+I could not complete the contact form code to enable the clearing of the input fields upon button click to send the information. The contents of the form remained in the text fields which is frustrating and I could not ammend this code to clear the data.
 
 
 2. Responsive Challenges

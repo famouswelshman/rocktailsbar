@@ -250,9 +250,9 @@ a:hover {
     border-style: solid;
     border-width: 1px;
     border-color: #cc6600;
-    width: 1fr;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
+    width: 100%;
 }
 
 button {
@@ -523,9 +523,9 @@ input[type=submit]:hover {
         border-style: solid;
         border-width: 1px;
         border-color: #cc6600;
-        width: 1fr;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 15px;
+        width: 100%;
     }
     button {
         width: 140px;
@@ -702,9 +702,9 @@ input[type=submit]:hover {
         border-style: solid;
         border-width: 1px;
         border-color: #cc6600;
-        width: 1fr;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 15px;
+        width: 100%;
     }
     button {
         width: 140px;
@@ -1064,7 +1064,7 @@ input[type=submit]:hover {
         border-style: solid;
         border-width: 1px;
         border-color: #cc6600;
-        width: 1fr;
+        width: 100%;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 15px;
     }
@@ -1232,7 +1232,6 @@ input[type=submit]:hover {
         height: auto;
         width: auto;
         text-align: center;
-        border-style: dashed;
     }
     #myDIV {
         display: none;
@@ -1257,7 +1256,7 @@ input[type=submit]:hover {
         border-style: solid;
         border-width: 1px;
         border-color: #cc6600;
-        width: 1fr;
+        width: 100%;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 15px;
     }
