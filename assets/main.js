@@ -44,27 +44,3 @@ document.getElementById('form')
                 alert(JSON.stringify(err));
             });
     });
-
-var i = 0;
-var images = [];
-var time = 3000;
-
-
-images[0] = "./assets/photos/banner1.jpg";
-images[1] = './assets/photos/banner2.jpg';
-
-
-
-function changeImg() {
-    document.slide.src = images[i];
-
-    if (i < images.length - 1) {
-        i++;
-    } else {
-        i = 0;
-    }
-
-    setTimeout("changeImg()", time);
-}
-
-window.onload = changeImg;
