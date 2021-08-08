@@ -192,6 +192,7 @@ Photo by Lidye on Unsplash
 Photo by Edgar Castrejon on Unsplash
 Photo by Carissa Gan on Unsplash
 Photo by Magnus Lunay on Unsplash
+Photo (Live Music Banner) credited to Prestwich Cricket , Tennis & Bowling club
   
 The Tapas Menu template is credited to - https://www.angelosristorante.co.uk for use of it's layout.
 The Cocktails Menu template is credited to - https://theitalianglossop.co.uk for use of it's layout.

@@ -118,6 +118,10 @@ p {
     padding-bottom: 30px;
 }
 
+.gallery {
+    text-align: center;
+}
+
 .container-tabs img {
     position: relative;
     width: 600px;
@@ -1075,7 +1079,7 @@ input[type=submit]:hover {
         text-align: center;
     }
     .subtitle {
-        font-size: 35px;
+        font-size: 30px;
         text-align: center;
     }
     .hero {
@@ -1085,7 +1089,7 @@ input[type=submit]:hover {
         background-repeat: no-repeat;
         background-size: cover;
         height: 400px;
-        width: 100%;
+        width: 100vw;
     }
     .hero-music {
         background-image: url("./photos/music_hero.jpg");
