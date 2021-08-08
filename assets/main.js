@@ -50,9 +50,9 @@ var images = [];
 var time = 3000;
 
 
-images[0] = "http://lorempixel.com/400/200/animals";
-images[1] = 'image2.jpg';
-images[2] = 'image3.jpg';
+images[0] = "./assets/photos/banner1.jpg";
+images[1] = './assets/photos/banner2.jpg';
+
 
 
 function changeImg() {
