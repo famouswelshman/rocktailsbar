@@ -168,7 +168,16 @@ My greatest challenge was to ensure that the images and background images would 
 
 7. Javascript image animation. This simple code was used in order to have a timed change of images. More specifically for the banner which is within the html code on the Live music page. This simple rotation enabled the timed change between two images therefore presenting an animation on the page between images. 
 
-8. 
+8. API (Google Map) - The challenge for testing this facility was ensuring the asset key was included in html in order for the API to show. I carefully revised the crednetials with this API to ensure it would be fully functioning across all platforms and not just restricted to web browsers or a certain operating system such as Android. Asset key for this API was generated following the registration with a credit card number allowing its use on a free but limited basis.
+
+# OVERALL SUMMARY OF TESTING AND SUCCESFUL USABILITY
+
+The website operates quickly but minor issues still remain on lower resolution handsets which is down to the time spent on further testing and deployment. 
+Navbar via Bootstrap is fully functional and the navbar collapses when the screen size is reduced giving the user the ability to select any page link and the dropdown pushes the content down the page without obscuring the content.
+Opening times code works upon click, although this function is basic it shows how Javascript can manipulate actions upon click function. The task here was to ensure the opening times content box was not obscuring the rest of the page before clicking and allowing the opening times date to open and push the content down below it.
+
+Contact form is simple and user friendly with perfect functionality. Fields allow the entering of basic text information before a click of the submit button send the information to a personal email and Javascript prompts a pop-up box to show on screen to suggest the contact from content has been sent.
+
 
 # MEDIA CREDITS
 1. Unsplash.com - Royalty free use of photography from various contributors.
